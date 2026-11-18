@@ -2,6 +2,7 @@ import { z } from "zod";
 import { prepareAnswer } from "@/lib/rag/pipeline";
 import type { ChatStreamEvent } from "@/lib/types";
 import { config } from "@/lib/config";
+import { FreeQuotaExhaustedError, secondsUntilQuotaReset } from "@/lib/ai/errors";
 import { createConcurrencyGuard, createRateLimiter } from "@/server/security/rate-limit";
 import {
   assertJsonContentType,
@@ -92,6 +93,21 @@ export async function POST(request: Request) {
       answer = await prepareAnswer(parsed.data.messages, abortController.signal);
     } catch (error) {
       release();
+
+      // Worth naming precisely: the operator can fix this (top up the account),
+      // and a visitor should be told it is a quota ceiling rather than a fault.
+      if (error instanceof FreeQuotaExhaustedError) {
+        const retryAfter = secondsUntilQuotaReset();
+        console.error("chat.quota_exhausted", { retryAfter });
+        return jsonError(
+          429,
+          `The daily free-model quota for this demo is used up. It resets at midnight UTC (about ${Math.ceil(
+            retryAfter / 3600,
+          )}h away).`,
+          { "Retry-After": String(retryAfter) },
+        );
+      }
+
       console.error("chat.prepare_failed", { message: (error as Error).message });
       return jsonError(503, "The assistant is unavailable right now. Please try again.");
     }

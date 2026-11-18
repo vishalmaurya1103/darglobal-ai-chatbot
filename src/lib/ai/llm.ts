@@ -1,6 +1,7 @@
 import OpenAI, { APIError } from "openai";
 import type { ChatCompletionMessageParam } from "openai/resources/chat/completions";
 import { config } from "../config";
+import { FreeQuotaExhaustedError, isFreeQuotaExhausted } from "./errors";
 import { getOpenRouterClient } from "./openrouter";
 
 export interface CompletionStream {
@@ -95,6 +96,14 @@ export async function streamCompletion(
       signal?.removeEventListener("abort", abortUpstream);
       // A caller-initiated abort is final; only upstream flakiness warrants a fallback.
       if (signal?.aborted) throw error;
+
+      // The daily free-model allowance is account-wide, so every remaining
+      // model would fail the same way. Stop here instead of spending seconds
+      // proving it three times over.
+      if (isFreeQuotaExhausted(error)) {
+        throw new FreeQuotaExhaustedError((error as Error).message);
+      }
+
       if (!isRetryable(error) && !controller.signal.aborted) throw error;
 
       coolingDown.set(model, Date.now() + COOLDOWN_MS);
