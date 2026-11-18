@@ -1,8 +1,9 @@
-// Ordered by measured time to first token on grounded answers.
+// Ordered by measured speed and reliability on grounded answers. Reasoning-heavy models go last:
+// they are slower and can spend their whole token budget before writing an answer.
 const DEFAULT_MODELS = [
-  "nvidia/nemotron-3.5-super-vl:free",
   "baidu/ernie-5.5-flash-preview:free",
   "nvidia/nemotron-3.5-lightning:free",
+  "nvidia/nemotron-3.5-super-vl:free",
 ];
 
 function required(name: string): string {

@@ -1,6 +1,6 @@
 import { getPool } from "../db";
-import { formatPrice } from "../format";
-import type { ListingPurpose, SourceCard } from "../types";
+import { formatPrice, SOURCE_LABELS } from "../format";
+import type { DataSource, ListingPurpose, SourceCard } from "../types";
 import { buildFilterClause, PROPERTY_COLUMNS, toSourceCard, type PropertyRow, type SearchFilters } from "./properties";
 import type { AggregateMetric } from "./query-parser";
 
@@ -21,14 +21,19 @@ const describeScope = (filters: SearchFilters) =>
     .map(([key, value]) => `${key}=${value}`)
     .join(", ") || "all properties";
 
+const KIND_LABELS: Record<string, string> = { project: "projects", listing: "listings" };
+
 async function countProperties(filters: SearchFilters): Promise<AnalyticsResult> {
   const params: unknown[] = [];
-  const where = buildFilterClause(filters, params);
+  // Articles are news and blog pages, not properties, so they are never counted.
+  const where = `${buildFilterClause(filters, params)} AND p.kind <> 'article'`;
   const pool = getPool();
 
   const [totals, examples] = await Promise.all([
-    pool.query<{ source: string; total: number }>(
-      `SELECT p.source, count(*)::int AS total FROM properties p WHERE ${where} GROUP BY p.source ORDER BY p.source`,
+    pool.query<{ source: DataSource; kind: string; total: number }>(
+      `SELECT p.source, p.kind, count(*)::int AS total
+       FROM properties p WHERE ${where}
+       GROUP BY p.source, p.kind ORDER BY p.source, p.kind`,
       params,
     ),
     pool.query<PropertyRow>(
@@ -38,9 +43,11 @@ async function countProperties(filters: SearchFilters): Promise<AnalyticsResult>
   ]);
 
   const total = totals.rows.reduce((sum, row) => sum + row.total, 0);
-  const breakdown = totals.rows.map((row) => `${row.source}: ${row.total}`).join(", ");
+  const breakdown = totals.rows
+    .map((row) => `${row.total} ${SOURCE_LABELS[row.source]} ${KIND_LABELS[row.kind] ?? row.kind}`)
+    .join(", ");
   return {
-    facts: [`Matching properties (${describeScope(filters)}): ${total}${breakdown ? ` (${breakdown})` : ""}`],
+    facts: [`Total matching (${describeScope(filters)}): ${total}${breakdown ? `, made up of ${breakdown}` : ""}`],
     properties: examples.rows.map(toSourceCard),
   };
 }
