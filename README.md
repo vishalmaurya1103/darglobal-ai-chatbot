@@ -154,11 +154,11 @@ works; it does not prove the BM25 leg earns its place. A harder set is the hones
 `APPROACH.md` says so.
 
 `npm test` runs 129 unit tests over the parts that fail silently rather than loudly: the query parser,
-SQL filter builder, chunker, normalisation, formatting, scraper parsing, prompt fencing, the answer markdown parser,
-intent and follow-up detection, rate limiter and request guards.
+SQL filter builder, chunker, normalisation, formatting, scraper parsing, prompt fencing, the answer
+renderer, intent and follow-up detection, rate limiter and request guards.
 
 Measured end to end with a warm server: the response opens once the model produces its first token
-(~2 s), source cards render immediately after, and the full answer lands at ~5 s. Most of that is the
+(~2 s) and the full answer lands at ~5 s, with its cited sources shown as cards when it completes. Most of that is the
 free LLM. Holding the response until the first token is deliberate: it is what lets a quota or outage
 failure come back as a real HTTP status rather than as an error embedded in a half-written answer.
 

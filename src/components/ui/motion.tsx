@@ -12,14 +12,14 @@ import type { ReactNode } from "react";
  * remember to check.
  */
 
-export const EASE_OUT: Transition = {
+const EASE_OUT: Transition = {
   type: "spring",
   stiffness: 420,
   damping: 38,
   mass: 0.8,
 };
 
-export const QUICK: Transition = { duration: 0.18, ease: [0.22, 1, 0.36, 1] };
+const QUICK: Transition = { duration: 0.18, ease: [0.22, 1, 0.36, 1] };
 
 /** Container that reveals its children one after another. */
 export const stagger: Variants = {
