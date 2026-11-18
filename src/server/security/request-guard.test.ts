@@ -21,6 +21,15 @@ describe("assertSameOrigin", () => {
     expect(() => assertSameOrigin(post({ origin: "https://preview.example.com" }))).not.toThrow();
   });
 
+  // A trailing slash or path in the configured URL is a common deployment slip;
+  // the browser's Origin header never has either.
+  it("matches a configured URL written with a trailing slash or path", () => {
+    process.env.APP_URL = "https://assistant.example.com/";
+    process.env.ALLOWED_ORIGINS = "https://preview.example.com/chat";
+    expect(() => assertSameOrigin(post({ origin: "https://assistant.example.com" }))).not.toThrow();
+    expect(() => assertSameOrigin(post({ origin: "https://preview.example.com" }))).not.toThrow();
+  });
+
   it("refuses an unknown origin", () => {
     process.env.APP_URL = "https://assistant.example.com";
     expect(() => assertSameOrigin(post({ origin: "https://evil.example" }))).toThrow(RequestRejected);

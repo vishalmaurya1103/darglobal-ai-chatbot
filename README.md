@@ -19,7 +19,7 @@ The reasoning behind the design — what was chosen, what was rejected, and what
 | Embeddings | `baai/bge-m3` (1024-d, multilingual) via the OpenRouter embeddings API |
 | LLM | Free OpenRouter chat models with automatic fallback |
 | Scraping | Playwright |
-| Tests | Vitest (129 unit tests) |
+| Tests | Vitest (130 unit tests) |
 | Packaging | Multi-stage Docker image (Next.js standalone output, ~100 MB RAM at runtime) |
 
 ## Architecture
@@ -153,7 +153,7 @@ questions restate the target's title closely enough for vector search alone. It 
 works; it does not prove the BM25 leg earns its place. A harder set is the honest next step, and
 `APPROACH.md` says so.
 
-`npm test` runs 129 unit tests over the parts that fail silently rather than loudly: the query parser,
+`npm test` runs 130 unit tests over the parts that fail silently rather than loudly: the query parser,
 SQL filter builder, chunker, normalisation, formatting, scraper parsing, prompt fencing, the answer
 renderer, intent and follow-up detection, rate limiter and request guards.
 

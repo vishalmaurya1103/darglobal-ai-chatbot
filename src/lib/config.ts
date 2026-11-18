@@ -27,6 +27,19 @@ function list(name: string): string[] {
     .filter(Boolean);
 }
 
+/**
+ * Reduces a configured URL to the exact form a browser sends in `Origin`
+ * (scheme, host, port; no path, no trailing slash), so that
+ * "https://app.example.com/" still matches. Anything unparseable is dropped.
+ */
+function toOrigin(url: string): string | null {
+  try {
+    return new URL(url).origin;
+  } catch {
+    return null;
+  }
+}
+
 function integer(name: string, fallback: number): number {
   const parsed = Number(process.env[name]);
   return Number.isFinite(parsed) && parsed > 0 ? Math.floor(parsed) : fallback;
@@ -59,7 +72,8 @@ export const config = {
    * origins (a preview deployment, a custom domain) are added explicitly.
    */
   get allowedOrigins(): string[] {
-    return [...new Set([this.appUrl, ...list("ALLOWED_ORIGINS")])];
+    const origins = [this.appUrl, ...list("ALLOWED_ORIGINS")].map(toOrigin);
+    return [...new Set(origins.filter((origin): origin is string => origin !== null))];
   },
 
   /**

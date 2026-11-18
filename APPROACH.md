@@ -110,7 +110,7 @@ To be straight about what this shows: both configurations score the same, which 
 
 An earlier version added a cross-encoder reranker, which pushed MRR to a perfect 1.000. Together with the embedding model running inside the server, it needed about 550 MB. The current setup gets within 0.025 of that at about a fifth of the memory, and memory was the deciding limit for deployment.
 
-There are also 129 unit tests over the parts that fail quietly rather than loudly: the question parser, the SQL filter builder, chunking, data normalisation, the answer renderer, and the intent and follow-up detection. A bug in any of those doesn't crash anything. It just quietly returns worse answers, which is exactly why they are the parts worth testing.
+There are also 130 unit tests over the parts that fail quietly rather than loudly: the question parser, the SQL filter builder, chunking, data normalisation, the answer renderer, and the intent and follow-up detection. A bug in any of those doesn't crash anything. It just quietly returns worse answers, which is exactly why they are the parts worth testing.
 
 Speed, with the server warm: the answer starts streaming after about 2 seconds and is complete in about 5. Most of that is the free model writing.
 
