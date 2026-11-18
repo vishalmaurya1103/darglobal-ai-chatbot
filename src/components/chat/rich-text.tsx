@@ -1,68 +1,88 @@
 import { Fragment, type ReactNode } from "react";
+import { motion } from "motion/react";
+import { fadeIn } from "@/components/ui/motion";
+import { parseBlocks, parseInline, stripCitations, type Block } from "@/lib/markdown";
 
-interface RichTextProps {
-  text: string;
-  sourceCount: number;
+function renderInline(text: string): ReactNode[] {
+  return parseInline(text).map((node, index) => {
+    switch (node.type) {
+      case "bold":
+        return <strong key={index} className="font-semibold text-ink-950">{node.value}</strong>;
+      case "italic":
+        return <em key={index}>{node.value}</em>;
+      case "code":
+        return <code key={index} className="rounded-md bg-ink-100 px-1.5 py-0.5 font-mono text-[0.85em] text-ink-800">{node.value}</code>;
+      default:
+        return <Fragment key={index}>{node.value}</Fragment>;
+    }
+  });
+}
+
+function renderBlock(block: Block): ReactNode {
+  switch (block.type) {
+    case "heading":
+      return <h3 className="pt-1 text-[15px] font-semibold tracking-tight text-ink-950">{renderInline(block.text)}</h3>;
+
+    case "list":
+      return (
+        <ul className="space-y-1.5">
+          {block.items.map((item, index) => (
+            <li key={index} className={`flex gap-2.5 ${item.depth ? "pl-6" : ""}`}>
+              {item.ordinal === undefined ? (
+                <span aria-hidden className="mt-[0.7em] size-1 shrink-0 rounded-full bg-ink-400" />
+              ) : (
+                <span className="min-w-4 shrink-0 text-right font-medium tabular-nums text-ink-400">{item.ordinal}.</span>
+              )}
+              <span className="min-w-0">{renderInline(item.text)}</span>
+            </li>
+          ))}
+        </ul>
+      );
+
+    case "table":
+      return (
+        <div className="scrollbar-subtle overflow-x-auto rounded-xl border border-ink-200">
+          <table className="w-full border-collapse text-left text-[13.5px]">
+            <thead className="bg-ink-50 text-ink-500">
+              <tr>
+                {block.header.map((cell, index) => (
+                  <th key={index} scope="col" className="whitespace-nowrap px-3.5 py-2 font-medium">{renderInline(cell)}</th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {block.rows.map((row, rowIndex) => (
+                <tr key={rowIndex} className="border-t border-ink-100">
+                  {row.map((cell, index) => (
+                    <td key={index} className="px-3.5 py-2 align-top">{renderInline(cell)}</td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      );
+
+    default:
+      return <p>{renderInline(block.text)}</p>;
+  }
 }
 
 /**
- * Renders the small markdown subset the system prompt allows (paragraphs,
- * "- " bullets, **bold**) and turns [n] citations into links to the source cards.
- *
- * Deliberately not a general markdown renderer: parsing only the constructs the
- * prompt asks for means model output can never introduce raw HTML or a link
- * target of its own choosing.
+ * Renders a model answer. Parsing lives in `lib/markdown`, which emits plain
+ * data, so nothing the model writes can reach the DOM as HTML or as a link
+ * target. Citation markers are dropped: the source cards below the answer
+ * already show what was used. Each block fades in once as it first appears, which is what makes a
+ * streamed answer read as writing rather than as text popping into place.
  */
-export function RichText({ text, sourceCount }: RichTextProps) {
-  const renderInline = (line: string): ReactNode[] =>
-    line.split(/(\*\*[^*]+\*\*|\[\d+\])/g).map((part, index) => {
-      const bold = part.match(/^\*\*([^*]+)\*\*$/);
-      if (bold) return <strong key={index} className="font-semibold text-ink-900">{bold[1]}</strong>;
-
-      const citation = part.match(/^\[(\d+)\]$/);
-      if (citation && Number(citation[1]) <= sourceCount) {
-        return (
-          <a
-            key={index}
-            href={`#source-${citation[1]}`}
-            aria-label={`Jump to source ${citation[1]}`}
-            className="ml-0.5 inline-flex h-[18px] min-w-[18px] items-center justify-center rounded-md bg-gold-100 px-1 align-[1px] text-[10px] font-bold text-gold-800 ring-1 ring-inset ring-gold-300/70 transition-colors hover:bg-gold-200"
-          >
-            {citation[1]}
-          </a>
-        );
-      }
-      return <Fragment key={index}>{part}</Fragment>;
-    });
-
-  const blocks: ReactNode[] = [];
-  let listItems: string[] = [];
-
-  const flushList = () => {
-    if (!listItems.length) return;
-    blocks.push(
-      <ul key={`list-${blocks.length}`} className="space-y-1.5 pl-1">
-        {listItems.map((item, index) => (
-          <li key={index} className="flex gap-2.5">
-            <span aria-hidden className="mt-[0.55em] size-1 shrink-0 rounded-full bg-gold-500" />
-            <span>{renderInline(item)}</span>
-          </li>
-        ))}
-      </ul>,
-    );
-    listItems = [];
-  };
-
-  for (const line of text.split("\n")) {
-    const bullet = line.match(/^\s*(?:[-*•]|\d+\.)\s+(.*)$/);
-    if (bullet) {
-      listItems.push(bullet[1]);
-      continue;
-    }
-    flushList();
-    if (line.trim()) blocks.push(<p key={`p-${blocks.length}`}>{renderInline(line)}</p>);
-  }
-  flushList();
-
-  return <div className="space-y-3">{blocks}</div>;
+export function RichText({ text }: { text: string }) {
+  return (
+    <div className="space-y-3">
+      {parseBlocks(stripCitations(text)).map((block, index) => (
+        <motion.div key={index} variants={fadeIn} initial="hidden" animate="visible">
+          {renderBlock(block)}
+        </motion.div>
+      ))}
+    </div>
+  );
 }

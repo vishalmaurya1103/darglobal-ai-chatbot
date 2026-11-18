@@ -6,7 +6,6 @@ import type { ChatMessage, ChatStreamEvent, SourceCard } from "@/lib/types";
 export interface ConversationMessage extends ChatMessage {
   id: string;
   sources?: SourceCard[];
-  model?: string;
   status?: "streaming" | "done" | "error";
 }
 
@@ -67,7 +66,7 @@ export function useChat() {
           } else if (event.type === "token") {
             updateMessage(assistantId, (message) => ({ ...message, content: message.content + event.value }));
           } else if (event.type === "done") {
-            updateMessage(assistantId, (message) => ({ ...message, model: event.model, status: "done" }));
+            updateMessage(assistantId, (message) => ({ ...message, status: "done" }));
           } else if (event.type === "error") {
             throw new Error(event.message);
           }

@@ -4,7 +4,7 @@ A retrieval-augmented (RAG) chatbot that answers questions about real estate scr
 [DarGlobal](https://darglobal.co.uk) and [Wasalt](https://wasalt.sa). Every answer cites its sources
 and links back to the original pages.
 
-**Live demo:** _add the deployed URL here_
+**Live demo:** _add the deployed URL here_ · **Source:** https://github.com/vishalmaurya1103/darglobal-ai-chatbot
 
 The reasoning behind the design — what was chosen, what was rejected, and what broke — is in
 [`APPROACH.md`](./APPROACH.md).
@@ -14,12 +14,12 @@ The reasoning behind the design — what was chosen, what was rejected, and what
 | Layer | Choice |
 | --- | --- |
 | App | Next.js 16 (App Router, TypeScript, Tailwind CSS v4): UI and API in one service |
-| UI | Motion for animation, Lucide for icons, a token-driven theme in `globals.css` |
+| UI | Motion for animation, Lucide for icons, a monochrome token-driven theme in `globals.css` |
 | Database | Neon Postgres with Lakebase Search (`lakebase_vector` ANN + `lakebase_text` BM25) |
 | Embeddings | `baai/bge-m3` (1024-d, multilingual) via the OpenRouter embeddings API |
 | LLM | Free OpenRouter chat models with automatic fallback |
 | Scraping | Playwright |
-| Tests | Vitest (77 unit tests) |
+| Tests | Vitest (129 unit tests) |
 | Packaging | Multi-stage Docker image (Next.js standalone output, ~100 MB RAM at runtime) |
 
 ## Architecture
@@ -84,6 +84,22 @@ over the structured `properties` table. If filters match nothing, search retries
 would be a confident, well-cited, wrong answer. The analytics path attaches a coverage note and the
 prompt requires the model to honour it.
 
+**Off-topic questions are declined, not improvised.** Greetings, thanks and "what can you do?" get a
+fixed reply without calling the model, so they cost none of the account-wide free quota. Every other
+question is first scored against the knowledge base. Below a similarity of 0.51 it is unrelated
+("tell me a joke", "capital of France") and gets a polite redirect with example questions, again with
+no model call. That threshold comes from `eval/scope.json` (`npm run eval`): unrelated questions top
+out at 0.49 and no property question scores below 0.53. Questions that name a real place ("weather in
+Riyadh") score like property questions and cannot be separated by number, so they reach the model,
+whose prompt tells it to decline in one sentence and cite nothing. An answer that cites nothing shows
+no source cards.
+
+**Follow-ups keep their context.** "Which one is the cheapest?" means nothing alone. A follow-up is
+searched together with the question before it, and its constraints carry over: after "villas for sale
+in Riyadh" it becomes a cheapest-price query over villas for sale in Riyadh. Wording that looks like a
+follow-up is detected cheaply. A question is never rejected as unrelated until it has also been checked
+alongside the previous question, because turning away a real question is the costly mistake.
+
 **Grounded generation.** The prompt numbers each source and requires inline `[n]` citations, answers
 only from context, and an explicit "not found" response. Free models are often rate limited, so the
 client falls back through a list ordered by measured response time and skips a failing model for a
@@ -137,12 +153,14 @@ questions restate the target's title closely enough for vector search alone. It 
 works; it does not prove the BM25 leg earns its place. A harder set is the honest next step, and
 `APPROACH.md` says so.
 
-`npm test` runs 77 unit tests over the parts that fail silently rather than loudly: the query parser,
-SQL filter builder, chunker, normalisation, formatting, scraper parsing, prompt fencing, rate limiter
-and request guards.
+`npm test` runs 129 unit tests over the parts that fail silently rather than loudly: the query parser,
+SQL filter builder, chunker, normalisation, formatting, scraper parsing, prompt fencing, the answer markdown parser,
+intent and follow-up detection, rate limiter and request guards.
 
-Measured end to end with a warm server: sources appear after ~2 s, the full answer after ~5 s. Most
-of that is the free LLM.
+Measured end to end with a warm server: the response opens once the model produces its first token
+(~2 s), source cards render immediately after, and the full answer lands at ~5 s. Most of that is the
+free LLM. Holding the response until the first token is deliberate: it is what lets a quota or outage
+failure come back as a real HTTP status rather than as an error embedded in a half-written answer.
 
 ## Getting started
 
@@ -167,7 +185,7 @@ npm run scrape            # resumable; add -- --fresh to re-crawl everything
 npm run ingest
 ```
 
-### Docker
+### Deploying
 
 ```bash
 docker compose up --build   # reads .env.local, serves on http://localhost:3000
@@ -179,12 +197,34 @@ filesystem, and a health check on `/api/health`.
 > The container holds the app only — the database is Neon, so `DATABASE_URL` must point at a project
 > that has already been ingested.
 
-## Branding
+Before handing out a public URL, set these four things. Each one is wrong by default for a
+deployment, and three of them fail quietly rather than loudly:
 
-`src/components/brand/logo.tsx` holds a purpose-built mark for the assistant rather than either
-company's registered logo, so the demo cannot be mistaken for an official product. To use official
-artwork, drop the file into `public/brand/` and swap `<Logomark />` for an `<img>`. Colours and type
-live as tokens at the top of `src/app/globals.css`.
+| Setting | Why it matters if you skip it |
+| --- | --- |
+| `APP_URL=https://your-host` | It is the default allowed Origin. Left at `localhost`, the browser's own POSTs are rejected with 403 and the chat never answers. |
+| `TRUST_PROXY_HEADERS=true` | Behind a platform proxy every caller resolves to the same key `unknown`, so the 6-per-minute burst limit becomes a **global** cap and the first visitor locks out the rest. Set it only where the platform overwrites `X-Forwarded-For`; see the note below. |
+| `sslmode=verify-full` in `DATABASE_URL` | `require` stops verifying the server certificate in pg v9. |
+| OpenRouter credit | A key with no balance is capped at ~50 free-model requests **per day, account-wide**. Once spent, every question returns the quota message until midnight UTC. Adding $10 of credit raises the cap to ~1,000/day. |
+
+## Interface
+
+White page, neutral greys, black as the only accent — the same black-and-white identity DarGlobal uses
+itself. Colour appears only where it carries meaning (the live-status dot, the Wasalt source tag).
+Tokens live at the top of `src/app/globals.css`.
+
+Answers are rendered by a small purpose-built parser (`src/lib/markdown.ts`) rather than a general
+markdown library. It turns model output into plain data — headings, lists, tables, bold and code — so model text can never reach the page as HTML, and a markdown link keeps its label
+but loses its target. It is also streaming-aware: a half-arrived `**bold` or a table with only its
+header row renders cleanly instead of flashing raw syntax.
+
+The model still cites with `[n]`, because that is how the UI knows which retrieved sources the answer
+actually used. Those markers pick the source cards shown under the answer and are then removed from the
+prose, so the reader sees each source once, as a card, rather than as a number repeated in every line.
+Copying an answer gives plain text — no `**`, no markers — so it pastes cleanly into chat apps and email.
+
+The header carries DarGlobal's wordmark (`src/components/brand/`), inlined as SVG. It is DarGlobal's
+trademark, used here because this was built for DarGlobal's own technical assessment.
 
 ## Scripts
 
@@ -192,7 +232,7 @@ live as tokens at the top of `src/app/globals.css`.
 | --- | --- |
 | `npm run scrape [-- darglobal\|darglobal-articles\|wasalt]` | Crawl sources into `data/raw` (resumable, rate limited) |
 | `npm run ingest` | Normalise, chunk, embed and load into Neon |
-| `npm run eval` | Retrieval benchmark across configurations |
+| `npm run eval` | Retrieval benchmark, plus the scope gate's accuracy |
 | `npm test` | Unit tests (Vitest) |
 | `npm run dev` / `build` / `start` | Next.js |
 | `npm run lint` / `typecheck` | Static checks |
@@ -203,6 +243,7 @@ live as tokens at the top of `src/app/globals.css`.
 db/schema.sql                 Tables, ANN and BM25 indexes
 data/raw/                     Scraped snapshot (JSON)
 eval/questions.json           Retrieval evaluation set
+eval/scope.json               In-scope / out-of-scope set for the relevance gate
 scripts/
   scrape/                     Playwright crawler: resumable runner, DarGlobal projects/articles, Wasalt
   ingest.ts                   Knowledge-base build
@@ -211,14 +252,15 @@ src/
   proxy.ts                    Security headers and per-request CSP nonce
   app/                        Page, /api/chat (NDJSON stream), /api/health
   components/
-    brand/                    Logomark and wordmark
+    brand/                    DarGlobal wordmark, GitHub mark
     chat/                     Chat shell, messages, composer, source cards
     ui/                       Shared motion language
   hooks/use-chat.ts           Streaming client
   lib/
     ai/                       OpenRouter client, embeddings, chat completion with fallback
     ingestion/                Normalisation and chunking
-    rag/                      Query parser, retriever, analytics, prompt, pipeline
+    rag/                      Intent, query parser, retriever, analytics, prompt, pipeline
+    markdown.ts               Streaming-safe parser for model answers
     config.ts                 Lazy, validated environment access
   server/security/            Rate limiting and request guards
   test/                       Shared test fixtures
@@ -241,6 +283,7 @@ grouped by heading. Requests are rate limited, and progress is saved so an inter
 - The query parser and BM25 text search are English-only, while the embeddings are multilingual — an
   Arabic question retrieves by meaning but gets no filters.
 - Retrieval SQL joins the whole chunk table; fine at 3,148 chunks, it needs rethinking at 60,000.
-- Follow-up questions are answered with conversation history, but retrieval uses only the latest
-  message. Query rewriting would improve them.
+- Follow-up detection is rule-based. A model-based query rewrite would handle more phrasings, at the
+  cost of a second model call per question against a tight free quota.
+- Replies to greetings and off-topic questions are fixed English text, even when the question is in Arabic.
 - Free OpenRouter chat models are rate limited; a paid model would remove that and cut latency.

@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import { motion } from "motion/react";
-import { Database } from "lucide-react";
 import type { RecordKind } from "@/lib/types";
 
 type Counts = Partial<Record<RecordKind, number>>;
@@ -39,13 +38,12 @@ export function KnowledgeBaseStatus() {
       initial={{ opacity: 0, scale: 0.96 }}
       animate={{ opacity: 1, scale: 1 }}
       title={breakdown}
-      className="inline-flex items-center gap-1.5 rounded-full bg-white/70 px-2.5 py-1 text-[11px] font-medium text-ink-500 ring-1 ring-inset ring-ink-200/70 backdrop-blur"
+      className="inline-flex h-9 items-center gap-2 rounded-full border border-ink-200 px-3 text-xs font-medium text-ink-600"
     >
       <span className="relative flex size-1.5">
         <span className="absolute inset-0 animate-ping rounded-full bg-emerald-500 opacity-60" />
         <span className="relative size-1.5 rounded-full bg-emerald-500" />
       </span>
-      <Database className="size-3" />
       {total.toLocaleString()} records indexed
     </motion.span>
   );

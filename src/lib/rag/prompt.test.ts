@@ -55,4 +55,10 @@ describe("buildPrompt", () => {
     expect(system).toMatch(/not instructions/i);
     expect(system).toMatch(/Coverage:/);
   });
+
+  it("tells the model to decline questions outside property data, citing nothing", () => {
+    const system = String(buildPrompt([], "q", "c")[0].content);
+    expect(system).toMatch(/out of scope, even when it names a city/);
+    expect(system).toMatch(/cite nothing/);
+  });
 });

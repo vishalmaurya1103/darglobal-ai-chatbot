@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, type FormEvent, type KeyboardEvent } from "react";
-import { motion } from "motion/react";
+import { AnimatePresence, motion } from "motion/react";
 import { ArrowUp, Square } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -12,8 +12,12 @@ interface ChatInputProps {
 }
 
 const MAX_LENGTH = 1_000;
+const MAX_HEIGHT_PX = 180;
 /** Show the counter only once the user is close enough for it to matter. */
 const COUNTER_THRESHOLD = 0.8;
+
+const actionButton = "grid size-9 place-items-center rounded-full transition-colors duration-200";
+const swap = { initial: { scale: 0.7, opacity: 0 }, animate: { scale: 1, opacity: 1 }, exit: { scale: 0.7, opacity: 0 } };
 
 export function ChatInput({ isStreaming, onSubmit, onStop }: ChatInputProps) {
   const [value, setValue] = useState("");
@@ -24,13 +28,15 @@ export function ChatInput({ isStreaming, onSubmit, onStop }: ChatInputProps) {
     const textarea = textareaRef.current;
     if (!textarea) return;
     textarea.style.height = "auto";
-    textarea.style.height = `${Math.min(textarea.scrollHeight, 180)}px`;
+    textarea.style.height = `${Math.min(textarea.scrollHeight, MAX_HEIGHT_PX)}px`;
   }, [value]);
 
+  const canSend = value.trim().length > 0 && !isStreaming;
+  const showCounter = value.length > MAX_LENGTH * COUNTER_THRESHOLD;
+
   const submit = () => {
-    const question = value.trim();
-    if (!question || isStreaming) return;
-    onSubmit(question);
+    if (!canSend) return;
+    onSubmit(value.trim());
     setValue("");
   };
 
@@ -47,16 +53,14 @@ export function ChatInput({ isStreaming, onSubmit, onStop }: ChatInputProps) {
     }
   };
 
-  const canSend = value.trim().length > 0 && !isStreaming;
-  const showCounter = value.length > MAX_LENGTH * COUNTER_THRESHOLD;
-
   return (
     <form onSubmit={handleSubmit}>
       <div
         className={cn(
-          "group relative flex items-end gap-2 rounded-3xl border border-ink-200/80 bg-white/90 p-2 pl-4",
-          "shadow-[0_2px_8px_-2px_rgba(23,19,15,0.08),0_12px_32px_-12px_rgba(23,19,15,0.18)] backdrop-blur-xl",
-          "transition-colors focus-within:border-gold-400",
+          "flex items-end gap-2 rounded-[1.75rem] border border-ink-200 bg-white p-2 pl-5",
+          "shadow-[0_1px_2px_rgba(0,0,0,0.04),0_12px_32px_-16px_rgba(0,0,0,0.16)]",
+          "transition-[border-color,box-shadow] duration-200 focus-within:border-ink-400",
+          "focus-within:shadow-[0_1px_2px_rgba(0,0,0,0.04),0_16px_40px_-16px_rgba(0,0,0,0.24)]",
         )}
       >
         <label htmlFor="question" className="sr-only">
@@ -71,49 +75,46 @@ export function ChatInput({ isStreaming, onSubmit, onStop }: ChatInputProps) {
           rows={1}
           maxLength={MAX_LENGTH}
           enterKeyHint="send"
-          placeholder="Ask about a project, a listing, prices or amenities…"
-          className={cn(
-            "scrollbar-subtle max-h-[180px] flex-1 resize-none self-center bg-transparent py-2.5 text-[15px]",
-            "text-ink-900 outline-none placeholder:text-ink-400",
-          )}
+          placeholder="Ask about projects, listings or prices…"
+          className="scrollbar-subtle flex-1 resize-none self-center bg-transparent py-2 text-[15px] text-ink-950 outline-none placeholder:text-ink-400"
         />
 
-        <div className="flex items-center gap-2 pb-0.5">
-          {showCounter && (
-            <span className="text-[11px] tabular-nums text-ink-400" aria-hidden>
-              {MAX_LENGTH - value.length}
-            </span>
-          )}
+        {showCounter && (
+          <span className="self-center text-[11px] tabular-nums text-ink-400" aria-hidden>
+            {MAX_LENGTH - value.length}
+          </span>
+        )}
 
+        <AnimatePresence mode="popLayout" initial={false}>
           {isStreaming ? (
             <motion.button
+              key="stop"
               type="button"
               onClick={onStop}
-              initial={{ scale: 0.85, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              whileTap={{ scale: 0.94 }}
+              {...swap}
+              whileTap={{ scale: 0.92 }}
               aria-label="Stop generating"
-              className="grid size-10 place-items-center rounded-2xl bg-ink-900 text-white transition-colors hover:bg-ink-700"
+              className={cn(actionButton, "bg-ink-950 text-white hover:bg-ink-700")}
             >
-              <Square className="size-3.5 fill-current" />
+              <Square className="size-3 fill-current" />
             </motion.button>
           ) : (
             <motion.button
+              key="send"
               type="submit"
               disabled={!canSend}
-              whileTap={canSend ? { scale: 0.94 } : undefined}
+              {...swap}
+              whileTap={canSend ? { scale: 0.92 } : undefined}
               aria-label="Send question"
               className={cn(
-                "grid size-10 place-items-center rounded-2xl transition-all duration-200",
-                canSend
-                  ? "bg-gradient-to-br from-gold-500 to-gold-700 text-white shadow-md shadow-gold-700/25 hover:brightness-110"
-                  : "cursor-not-allowed bg-ink-100 text-ink-300",
+                actionButton,
+                canSend ? "bg-ink-950 text-white hover:bg-ink-700" : "cursor-not-allowed bg-ink-100 text-ink-400",
               )}
             >
-              <ArrowUp className="size-5" strokeWidth={2.5} />
+              <ArrowUp className="size-[18px]" strokeWidth={2.5} />
             </motion.button>
           )}
-        </div>
+        </AnimatePresence>
       </div>
 
       <p className="mt-2.5 text-center text-[11px] text-ink-400">

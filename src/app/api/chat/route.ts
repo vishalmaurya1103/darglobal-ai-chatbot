@@ -49,7 +49,7 @@ const encode = (event: ChatStreamEvent) => encoder.encode(`${JSON.stringify(even
 const jsonError = (status: number, error: string, headers: Record<string, string> = {}) =>
   Response.json({ error }, { status, headers: { "Cache-Control": "no-store", ...headers } });
 
-function enforceRateLimits(key: string): Record<string, string> {
+function enforceRateLimits(key: string): void {
   for (const limiter of [burstLimiter, hourlyLimiter]) {
     const verdict = limiter.check(key);
     if (!verdict.allowed) {
@@ -61,7 +61,6 @@ function enforceRateLimits(key: string): Record<string, string> {
       });
     }
   }
-  return {};
 }
 
 /** Streams newline-delimited JSON: the cited sources first, then answer tokens. */
@@ -117,14 +116,14 @@ export async function POST(request: Request) {
         controller.enqueue(encode({ type: "sources", sources: answer.sources }));
         try {
           let hasAnswer = false;
-          for await (const token of answer.completion.tokens) {
+          for await (const token of answer.tokens) {
             hasAnswer = true;
             controller.enqueue(encode({ type: "token", value: token }));
           }
           controller.enqueue(
             encode(
               hasAnswer
-                ? { type: "done", model: answer.completion.model }
+                ? { type: "done" }
                 : { type: "error", message: "No answer was generated. Please try again." },
             ),
           );

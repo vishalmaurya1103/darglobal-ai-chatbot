@@ -65,5 +65,5 @@ export interface ChatMessage {
 export type ChatStreamEvent =
   | { type: "sources"; sources: SourceCard[] }
   | { type: "token"; value: string }
-  | { type: "done"; model: string }
+  | { type: "done" }
   | { type: "error"; message: string };

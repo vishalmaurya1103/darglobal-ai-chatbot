@@ -1,0 +1,33 @@
+{
+  "inScope": [
+    "How many DarGlobal projects are in Oman?",
+    "What is the cheapest villa for sale in Riyadh?",
+    "3 bedroom apartments for sale in Jeddah under 1M",
+    "Show me villas for rent in Riyadh",
+    "Who is the CEO of DarGlobal?",
+    "Is DarGlobal listed on the stock exchange?",
+    "Any beachfront homes?",
+    "Payment plan for W Residences",
+    "Do you have something cheaper?"
+  ],
+  "outOfScope": [
+    "What is the weather today?",
+    "Write me a python function to sort a list",
+    "Who won the football world cup?",
+    "What is the capital of France?",
+    "Tell me a joke",
+    "How do I bake a chocolate cake?",
+    "Who is the president of the USA?",
+    "Translate hello to Spanish",
+    "What is 25 * 4?",
+    "How do I fix my car engine?",
+    "Explain quantum physics",
+    "Recommend a good movie",
+    "What is the weather in Riyadh?",
+    "Best restaurants in Dubai",
+    "What time is it in Jeddah?",
+    "Flights from London to Dubai",
+    "Is it going to rain in Muscat tomorrow?",
+    "Hotel booking in Doha for tonight"
+  ]
+}

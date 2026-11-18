@@ -1,22 +1,11 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
-import { Geist, Fraunces } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-/** Body text: neutral grotesque. Both families are self-hosted by next/font, so no external origin. */
-const sans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-  display: "swap",
-});
-
-/** Display face: a high-contrast serif gives the product its editorial, premium register. */
-const display = Fraunces({
-  variable: "--font-display",
-  subsets: ["latin"],
-  axes: ["SOFT", "WONK", "opsz"],
-  display: "swap",
-});
+/** One family for everything; both faces are self-hosted by next/font, so no external origin. */
+const sans = Geist({ variable: "--font-geist-sans", subsets: ["latin"], display: "swap" });
+const mono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
   title: {
@@ -35,15 +24,15 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#17130f",
+  themeColor: "#ffffff",
   width: "device-width",
   initialScale: 1,
 };
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
   return (
-    <html lang="en" className={`${sans.variable} ${display.variable} antialiased`}>
-      <body className="bg-sand font-sans text-ink-800">{children}</body>
+    <html lang="en" className={`${sans.variable} ${mono.variable} antialiased`}>
+      <body className="bg-white font-sans text-ink-800">{children}</body>
     </html>
   );
 }

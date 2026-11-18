@@ -123,3 +123,13 @@ export async function retrieve(
     property: toSourceCard(row),
   }));
 }
+
+/** Cosine similarity of the passage closest to `embedding`: how related a question is to the knowledge base at all. */
+export async function bestMatchSimilarity(embedding: number[]): Promise<number> {
+  const { rows } = await getPool().query<{ similarity: number }>(
+    `SELECT (1 - (embedding <=> $1::vector))::float8 AS similarity
+     FROM chunks ORDER BY embedding <=> $1::vector LIMIT 1`,
+    [toSqlVector(embedding)],
+  );
+  return rows[0]?.similarity ?? 0;
+}
