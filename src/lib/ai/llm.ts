@@ -1,17 +1,7 @@
 import OpenAI, { APIError } from "openai";
 import type { ChatCompletionMessageParam } from "openai/resources/chat/completions";
 import { config } from "../config";
-
-let client: OpenAI | undefined;
-
-function getClient(): OpenAI {
-  client ??= new OpenAI({
-    apiKey: config.openRouterApiKey,
-    baseURL: "https://openrouter.ai/api/v1",
-    defaultHeaders: { "HTTP-Referer": config.appUrl, "X-Title": "DarGlobal Property Assistant" },
-  });
-  return client;
-}
+import { getOpenRouterClient } from "./openrouter";
 
 export interface CompletionStream {
   model: string;
@@ -42,15 +32,19 @@ export async function streamCompletion(messages: ChatCompletionMessageParam[]): 
 
   for (const model of available.length ? available : models) {
     try {
-      const stream = await getClient().chat.completions.create({
-        model,
-        messages,
-        stream: true,
-        temperature: 0.2,
-        // Reasoning models spend hidden tokens before answering; keep that short for grounded lookups.
-        reasoning_effort: "low",
-        max_tokens: 1200,
-      });
+      const stream = await getOpenRouterClient().chat.completions.create(
+        {
+          model,
+          messages,
+          stream: true,
+          temperature: 0.2,
+          // Reasoning models spend hidden tokens before answering; keep that short for grounded lookups.
+          reasoning_effort: "low",
+          max_tokens: 1200,
+        },
+        // Move on to the next model rather than retrying one that is rate limited.
+        { maxRetries: 0 },
+      );
       return { model, tokens: textDeltas(stream) };
     } catch (error) {
       if (!isRetryable(error)) throw error;

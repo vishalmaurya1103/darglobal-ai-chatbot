@@ -1,36 +1,29 @@
-import "./model-cache";
-import { pipeline, type FeatureExtractionPipeline } from "@huggingface/transformers";
+import { config } from "../config";
+import { getOpenRouterClient } from "./openrouter";
 
 /**
- * multilingual-e5-small: 384 dimensions, 512-token input, runs on CPU.
- * Multilingual because Wasalt content mixes English and Arabic.
+ * Embeddings come from BAAI bge-m3 through OpenRouter: multilingual (English and
+ * Arabic, which Wasalt mixes) with 1024 dimensions. Calling an API rather than
+ * running a model in-process keeps the server small enough for low-memory hosting.
+ * Must match the `vector(1024)` column in db/schema.sql.
  */
-const MODEL_ID = "Xenova/multilingual-e5-small";
+export const EMBEDDING_DIMENSIONS = 1024;
 
-export const EMBEDDING_DIMENSIONS = 384;
+export async function embedTexts(texts: string[]): Promise<number[][]> {
+  const response = await getOpenRouterClient().embeddings.create({
+    model: config.embeddingModel,
+    input: texts,
+    encoding_format: "float",
+  });
 
-// Kept on globalThis so the startup warm-up and the route handlers share one loaded model.
-const globalForModels = globalThis as typeof globalThis & { embeddingModel?: Promise<FeatureExtractionPipeline> };
-
-function getExtractor(): Promise<FeatureExtractionPipeline> {
-  globalForModels.embeddingModel ??= pipeline("feature-extraction", MODEL_ID, {
-    dtype: "q8",
-  }) as Promise<FeatureExtractionPipeline>;
-  return globalForModels.embeddingModel;
-}
-
-async function embed(texts: string[]): Promise<number[][]> {
-  const model = await getExtractor();
-  const output = await model(texts, { pooling: "mean", normalize: true });
-  return output.tolist() as number[][];
-}
-
-// E5 models are trained with "query:" / "passage:" prefixes; omitting them hurts retrieval quality.
-export function embedPassages(texts: string[]): Promise<number[][]> {
-  return embed(texts.map((text) => `passage: ${text}`));
+  const vectors = [...response.data].sort((a, b) => a.index - b.index).map((item) => item.embedding);
+  if (vectors.length !== texts.length || vectors.some((vector) => vector.length !== EMBEDDING_DIMENSIONS)) {
+    throw new Error(`Unexpected embedding response from ${config.embeddingModel}`);
+  }
+  return vectors;
 }
 
 export async function embedQuery(text: string): Promise<number[]> {
-  const [vector] = await embed([`query: ${text}`]);
+  const [vector] = await embedTexts([text]);
   return vector;
 }

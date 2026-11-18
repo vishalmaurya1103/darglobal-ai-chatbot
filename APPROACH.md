@@ -56,11 +56,13 @@ Each piece is turned into a list of numbers that represents its meaning (an "emb
 similar things end up with similar numbers, so "villa near the beach" can find "beachfront residence"
 even though the words are different.
 
-I used a small model called multilingual-e5-small. I picked it for three reasons:
+I use a model called bge-m3, called through OpenRouter's embeddings API. I picked it because Wasalt
+has a lot of Arabic mixed in and this model handles English and Arabic in the same space, and because
+it's cheap: turning all 3,148 pieces into numbers cost about one cent.
 
-- Wasalt has a lot of Arabic mixed in, and this model handles English and Arabic in the same space.
-- It runs on the server itself, so there's no extra API key, cost or rate limit.
-- It's fast: about 50 milliseconds per question.
+My first version ran the embedding model on the server itself. That was fast, but it needed about
+550 MB of memory, which rules out most free hosting. Moving it to an API call brought the server down
+to about 100 MB. The cost is one extra API call per question, roughly a second.
 
 Everything is stored in Neon Postgres, which can do meaning-based search and normal keyword search
 in the same database.
@@ -76,10 +78,7 @@ When a question comes in, three things happen:
 - **Two searches at once.** One search by meaning, one by keywords (BM25). The keyword search is what
   catches exact names like "Mouawad", "Elie Saab" or a district name. The two result lists are merged
   with a method called Reciprocal Rank Fusion, which only looks at positions in each list, so I don't
-  have to balance two different scoring scales.
-- **A second, more careful check (reranking).** The top 16 results are re-scored by a model that
-  reads the question and each piece together. It's slower than the first search but much more
-  precise, so only the best 5 or 6 pieces go to the AI.
+  have to balance two different scoring scales. The best 5 or 6 pieces go to the AI.
 
 Some questions aren't really search questions. "How many projects are in Oman?" or "What's the
 cheapest villa in Riyadh?" can't be answered by reading six pieces of text. Those go straight to a
@@ -96,23 +95,22 @@ if the first is rate-limited. I tested several and ordered them by how fast they
 
 ## Did it work?
 
-I wrote 20 test questions where I already knew which property should come back, and measured three
-versions of the search:
+I wrote 20 test questions where I already knew which property should come back:
 
 | Search version | Right answer in top 5 | Right answer ranked first (MRR) |
 | --- | --- | --- |
-| Meaning only | 100% | 0.963 |
+| Meaning only | 100% | 0.975 |
 | Meaning + keywords | 100% | 0.975 |
-| Meaning + keywords + reranking | 100% | 1.000 |
 
-So each step earns its place: the keyword search helps with names, and the reranker puts the
-correct result first every time.
+My first version also had a second model that re-checked the results (a "reranker"). It pushed the
+ranking score to a perfect 1.000, but together with the local embedding model it needed about 550 MB
+of memory. The current version gets almost the same result with about 100 MB, so I chose that.
 
 There are also 49 unit tests for the parts most likely to break quietly: the question parser, the
 database filter builder, chunking and the data clean-up.
 
-Speed with the server warmed up: sources show up in about 2 seconds, the answer starts in about 5,
-and it's finished in about 7. Most of that wait is the free AI model itself.
+Speed: sources show up in about 2 seconds and the full answer arrives in about 5. Most of that wait is
+the free AI model writing the answer.
 
 ## Problems I ran into
 
@@ -127,8 +125,8 @@ and it's finished in about 7. Most of that wait is the free AI model itself.
 - **An empty answer.** One free model spent its whole word budget "thinking" and returned nothing.
   Asking it for less internal reasoning fixed it, and the app now shows an error instead of a blank
   reply if it ever happens again.
-- **The first question was slow** because the server loaded its models only when the first question
-  arrived. They now load when the server starts.
+- **Too much memory.** Running the AI models on the server needed about 550 MB, more than free hosting
+  allows. Moving the embedding step to an API brought it down to about 100 MB.
 
 ## What I'd do with more time
 
@@ -142,5 +140,5 @@ and it's finished in about 7. Most of that wait is the free AI model itself.
 ## Tech used
 
 Next.js and TypeScript for the app and API, Neon Postgres with vector and keyword search,
-multilingual-e5-small for embeddings, a MiniLM cross-encoder for reranking, free OpenRouter models
-for answers, Playwright for scraping, Vitest for tests, and Docker for deployment.
+bge-m3 embeddings and free chat models through OpenRouter, Playwright for scraping, Vitest for tests,
+and Docker for deployment.

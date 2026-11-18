@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS chunks (
   property_id text NOT NULL REFERENCES properties (id) ON DELETE CASCADE,
   heading     text NOT NULL,
   content     text NOT NULL,
-  embedding   vector(384) NOT NULL,
+  embedding   vector(1024) NOT NULL, -- baai/bge-m3
   content_tsv tsvector GENERATED ALWAYS AS (to_tsvector('english', content)) STORED
 );
 

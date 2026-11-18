@@ -24,6 +24,9 @@ export const config = {
     const configured = process.env.OPENROUTER_MODELS?.split(",").map((model) => model.trim());
     return configured?.filter(Boolean).length ? configured.filter(Boolean) : DEFAULT_MODELS;
   },
+  get embeddingModel() {
+    return process.env.EMBEDDING_MODEL ?? "baai/bge-m3";
+  },
   get appUrl() {
     return process.env.APP_URL ?? "http://localhost:3000";
   },

@@ -14,7 +14,6 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@huggingface/transformers": "^4.3.2",
     "@neon/config": "^1.14.3",
     "@neon/env": "^2.1.6",
     "next": "16.4.6",

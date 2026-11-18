@@ -2,7 +2,8 @@ import { createHash } from "node:crypto";
 import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { Client } from "pg";
-import { embedPassages } from "../src/lib/ai/embeddings";
+import { embedTexts } from "../src/lib/ai/embeddings";
+import { config } from "../src/lib/config";
 import { toSqlVector } from "../src/lib/db";
 import { buildChunks, type Chunk } from "../src/lib/ingestion/chunker";
 import { normalizeRecord } from "../src/lib/ingestion/normalize";
@@ -17,11 +18,16 @@ import type { PropertyRecord } from "../src/lib/types";
  */
 
 const RAW_DIR = path.join(process.cwd(), "data", "raw");
-const EMBEDDING_CACHE_FILE = path.join(process.cwd(), ".cache", "embeddings.json");
+// One cache per model: vectors from different models are not comparable.
+const EMBEDDING_CACHE_FILE = path.join(
+  process.cwd(),
+  ".cache",
+  `embeddings-${config.embeddingModel.replace(/\W+/g, "-")}.json`,
+);
 const SCHEMA_FILE = path.join(process.cwd(), "db", "schema.sql");
-const EMBEDDING_BATCH_SIZE = 32;
+const EMBEDDING_BATCH_SIZE = 64;
 const INSERT_BATCH_SIZE = 250;
-const CACHE_SAVE_INTERVAL = 3;
+const EMBEDDING_CONCURRENCY = 4;
 
 interface PendingChunk extends Chunk {
   propertyId: string;
@@ -55,16 +61,20 @@ async function embedChunks(chunks: PendingChunk[]): Promise<number[][]> {
   const missing = [...new Set(chunks.map((chunk) => chunk.content))].filter((text) => !cache[contentHash(text)]);
   console.log(`Embedding ${missing.length} new chunks (${chunks.length - missing.length} cached)`);
 
-  for (let start = 0, batch = 1; start < missing.length; start += EMBEDDING_BATCH_SIZE, batch++) {
-    const texts = missing.slice(start, start + EMBEDDING_BATCH_SIZE);
-    const vectors = await embedPassages(texts);
-    texts.forEach((text, index) => (cache[contentHash(text)] = vectors[index]));
-    if (batch % CACHE_SAVE_INTERVAL === 0) await saveEmbeddingCache(cache);
-    process.stdout.write(`\rEmbedded ${Math.min(start + EMBEDDING_BATCH_SIZE, missing.length)}/${missing.length}`);
+  const batches: string[][] = [];
+  for (let start = 0; start < missing.length; start += EMBEDDING_BATCH_SIZE) {
+    batches.push(missing.slice(start, start + EMBEDDING_BATCH_SIZE));
   }
-  if (missing.length) {
-    process.stdout.write("\n");
+
+  // A few requests in flight at once; the API is network-bound, not CPU-bound.
+  for (let start = 0; start < batches.length; start += EMBEDDING_CONCURRENCY) {
+    const group = batches.slice(start, start + EMBEDDING_CONCURRENCY);
+    const results = await Promise.all(group.map((texts) => embedTexts(texts)));
+    group.forEach((texts, batch) => texts.forEach((text, index) => (cache[contentHash(text)] = results[batch][index])));
+
     await saveEmbeddingCache(cache);
+    const done = Math.min((start + group.length) * EMBEDDING_BATCH_SIZE, missing.length);
+    console.log(`Embedded ${done}/${missing.length}`);
   }
 
   return chunks.map((chunk) => cache[contentHash(chunk.content)]);
@@ -110,6 +120,8 @@ async function main() {
   await client.connect();
 
   try {
+    // The chunks table is rebuilt on every load so its vector size always matches the embedding model.
+    await client.query("DROP TABLE IF EXISTS chunks");
     await client.query(await readFile(SCHEMA_FILE, "utf8"));
 
     await client.query("BEGIN");
@@ -131,8 +143,7 @@ async function main() {
     }
     await client.query("COMMIT");
 
-    // BM25 scores depend on corpus statistics, so refresh them after a full reload.
-    await client.query("REINDEX INDEX chunks_content_bm25");
+    // BM25 scoring uses corpus statistics, which VACUUM refreshes after a bulk load.
     await client.query("VACUUM ANALYZE properties, chunks");
     console.log(`Ingested ${records.length} properties and ${chunks.length} chunks`);
   } catch (error) {

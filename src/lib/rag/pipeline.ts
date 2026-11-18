@@ -78,7 +78,7 @@ async function buildSearchContext(query: ParsedQuery, embedding: number[]): Prom
 export async function prepareAnswer(messages: ChatMessage[]): Promise<PreparedAnswer> {
   const startedAt = performance.now();
   const question = messages[messages.length - 1].content;
-  // The question embedding does not depend on the parsed filters, so it is computed concurrently.
+  // The question embedding does not depend on the parsed filters, so it is fetched concurrently.
   const [vocabulary, embedding] = await Promise.all([getVocabulary(), embedQuery(question)]);
   const query = parseQuery(question, vocabulary);
 

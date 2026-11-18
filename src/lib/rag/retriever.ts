@@ -1,5 +1,4 @@
 import { embedQuery } from "../ai/embeddings";
-import { scorePassages } from "../ai/reranker";
 import { getPool, toSqlVector } from "../db";
 import type { SourceCard } from "../types";
 import {
@@ -20,8 +19,6 @@ export interface RetrievedChunk {
 export interface RetrievalOptions {
   /** Fuse BM25 keyword results with vector results (otherwise vector only). */
   hybrid?: boolean;
-  /** Re-order fused candidates with the cross-encoder. */
-  rerank?: boolean;
   limit?: number;
   /** Precomputed query embedding, so it can be computed in parallel with other work. */
   embedding?: number[];
@@ -29,10 +26,9 @@ export interface RetrievalOptions {
 
 const CANDIDATES_PER_RETRIEVER = 40;
 const RRF_K = 60;
-const RERANK_POOL_SIZE = 16;
+// Fused results kept before the per-property diversity cap is applied.
+const FUSED_POOL_SIZE = 18;
 const MAX_CHUNKS_PER_PROPERTY = 2;
-// Cross-encoder logits below this are judged irrelevant (ms-marco: relevant > 0, unrelated ≈ -10).
-const MIN_RERANK_SCORE = -4;
 
 interface ChunkRow extends PropertyRow {
   chunk_id: number;
@@ -54,7 +50,7 @@ async function fetchCandidates(
   const params: unknown[] = [toSqlVector(embedding)];
   const where = buildFilterClause(filters, params);
   const candidates = `$${params.push(CANDIDATES_PER_RETRIEVER)}`;
-  const poolSize = `$${params.push(RERANK_POOL_SIZE)}`;
+  const poolSize = `$${params.push(FUSED_POOL_SIZE)}`;
 
   const ctes = [
     `vector_ranked AS (
@@ -101,16 +97,6 @@ async function fetchCandidates(
   return rows;
 }
 
-/** Orders candidates by cross-encoder relevance and drops clearly irrelevant ones, keeping at least the best. */
-async function rerank(query: string, rows: ChunkRow[]): Promise<ChunkRow[]> {
-  const scores = await scorePassages(query, rows.map((row) => row.content));
-  return rows
-    .map((row, index) => ({ row, score: scores[index] }))
-    .sort((a, b) => b.score - a.score)
-    .filter(({ score }, index) => index === 0 || score >= MIN_RERANK_SCORE)
-    .map(({ row }) => row);
-}
-
 /** Keeps the best chunks while capping how many come from a single property, for diversity. */
 function selectDiverse(rows: ChunkRow[], limit: number): ChunkRow[] {
   const perProperty = new Map<string, number>();
@@ -126,12 +112,11 @@ function selectDiverse(rows: ChunkRow[], limit: number): ChunkRow[] {
 export async function retrieve(
   query: string,
   filters: SearchFilters,
-  { hybrid = true, rerank: useReranker = true, limit = 6, embedding }: RetrievalOptions = {},
+  { hybrid = true, limit = 6, embedding }: RetrievalOptions = {},
 ): Promise<RetrievedChunk[]> {
   const candidates = await fetchCandidates(query, embedding ?? (await embedQuery(query)), filters, hybrid);
-  const ordered = useReranker ? await rerank(query, candidates) : candidates;
 
-  return selectDiverse(ordered, limit).map((row) => ({
+  return selectDiverse(candidates, limit).map((row) => ({
     chunkId: row.chunk_id,
     heading: row.heading,
     content: row.content,
