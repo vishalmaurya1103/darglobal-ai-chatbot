@@ -1,5 +1,13 @@
-// Ordered by measured speed and reliability on grounded answers. Reasoning-heavy models go last:
-// they are slower and can spend their whole token budget before writing an answer.
+/**
+ * Central environment access.
+ *
+ * Every value is read through a getter so that `next build` - which runs without
+ * runtime secrets - never touches them. Required values fail loudly on first use
+ * rather than silently producing an unauthenticated request.
+ */
+
+// Ordered by measured time-to-first-token on grounded answers. Reasoning-heavy
+// models go last: they are slower and can spend the whole budget before writing.
 const DEFAULT_MODELS = [
   "baidu/ernie-5.5-flash-preview:free",
   "nvidia/nemotron-3.5-lightning:free",
@@ -12,7 +20,18 @@ function required(name: string): string {
   return value;
 }
 
-/** Environment access is lazy so `next build` does not need runtime secrets. */
+function list(name: string): string[] {
+  return (process.env[name] ?? "")
+    .split(",")
+    .map((entry) => entry.trim())
+    .filter(Boolean);
+}
+
+function integer(name: string, fallback: number): number {
+  const parsed = Number(process.env[name]);
+  return Number.isFinite(parsed) && parsed > 0 ? Math.floor(parsed) : fallback;
+}
+
 export const config = {
   get databaseUrl() {
     return required("DATABASE_URL");
@@ -22,13 +41,50 @@ export const config = {
   },
   /** Models are tried in order; later entries are fallbacks for rate limits and outages. */
   get openRouterModels() {
-    const configured = process.env.OPENROUTER_MODELS?.split(",").map((model) => model.trim());
-    return configured?.filter(Boolean).length ? configured.filter(Boolean) : DEFAULT_MODELS;
+    const configured = list("OPENROUTER_MODELS");
+    return configured.length ? configured : DEFAULT_MODELS;
   },
   get embeddingModel() {
     return process.env.EMBEDDING_MODEL ?? "baai/bge-m3";
   },
   get appUrl() {
     return process.env.APP_URL ?? "http://localhost:3000";
+  },
+  get isProduction() {
+    return process.env.NODE_ENV === "production";
+  },
+
+  /**
+   * Origins allowed to call the API. Defaults to the app's own URL; extra
+   * origins (a preview deployment, a custom domain) are added explicitly.
+   */
+  get allowedOrigins(): string[] {
+    return [...new Set([this.appUrl, ...list("ALLOWED_ORIGINS")])];
+  },
+
+  /**
+   * Set this only when the app genuinely runs behind a proxy that overwrites
+   * `x-forwarded-for` (Fly, Render, Railway, Vercel, an ingress controller).
+   * If it is set when nothing strips the header, clients can forge their own
+   * rate-limit identity.
+   */
+  get trustProxyHeaders(): boolean {
+    return process.env.TRUST_PROXY_HEADERS === "true";
+  },
+
+  /** Per-IP burst allowance on /api/chat. */
+  get chatBurstLimit() {
+    return integer("RATE_LIMIT_BURST", 6);
+  },
+  get chatBurstWindowMs() {
+    return integer("RATE_LIMIT_BURST_WINDOW_MS", 60_000);
+  },
+  /** Per-IP sustained allowance, to stop a slow drip from draining the quota. */
+  get chatHourlyLimit() {
+    return integer("RATE_LIMIT_HOURLY", 60);
+  },
+  /** Upper bound on simultaneous upstream LLM streams across all callers. */
+  get maxConcurrentAnswers() {
+    return integer("MAX_CONCURRENT_ANSWERS", 8);
   },
 };

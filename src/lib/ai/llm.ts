@@ -56,14 +56,26 @@ async function withFirstToken(tokens: AsyncGenerator<string>, abort: () => void)
   }
 }
 
-/** Streams a chat completion, falling back through the configured models on transient failures. */
-export async function streamCompletion(messages: ChatCompletionMessageParam[]): Promise<CompletionStream> {
+/**
+ * Streams a chat completion, falling back through the configured models on
+ * transient failures. `signal` propagates a client disconnect upstream so an
+ * abandoned request stops consuming quota.
+ */
+export async function streamCompletion(
+  messages: ChatCompletionMessageParam[],
+  signal?: AbortSignal,
+): Promise<CompletionStream> {
   let lastError: unknown;
   const models = config.openRouterModels;
   const available = models.filter((model) => (coolingDown.get(model) ?? 0) < Date.now());
 
   for (const model of available.length ? available : models) {
+    if (signal?.aborted) throw new Error("Request aborted before a model responded");
+
     const controller = new AbortController();
+    const abortUpstream = () => controller.abort();
+    signal?.addEventListener("abort", abortUpstream, { once: true });
+
     try {
       const stream = await getOpenRouterClient().chat.completions.create(
         {
@@ -78,9 +90,13 @@ export async function streamCompletion(messages: ChatCompletionMessageParam[]): 
         // Move on to the next model rather than retrying one that is failing.
         { maxRetries: 0, signal: controller.signal },
       );
-      return { model, tokens: await withFirstToken(textDeltas(stream), () => controller.abort()) };
+      return { model, tokens: await withFirstToken(textDeltas(stream), abortUpstream) };
     } catch (error) {
+      signal?.removeEventListener("abort", abortUpstream);
+      // A caller-initiated abort is final; only upstream flakiness warrants a fallback.
+      if (signal?.aborted) throw error;
       if (!isRetryable(error) && !controller.signal.aborted) throw error;
+
       coolingDown.set(model, Date.now() + COOLDOWN_MS);
       console.warn(`LLM model ${model} failed, trying next: ${(error as Error).message}`);
       lastError = error;

@@ -1,5 +1,98 @@
 @import "tailwindcss";
 
-@theme inline {
+/*
+ * Design tokens.
+ *
+ * The palette is built for a luxury-property product: a deep ink base, a warm
+ * champagne accent for anything the user should act on, and a single sand tone
+ * for surfaces. Everything in the UI references these, so a rebrand is a change
+ * to this block rather than a sweep through components.
+ */
+@theme {
   --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-display), ui-serif, Georgia, serif;
+
+  /* Ink: page and text */
+  --color-ink-50: oklch(0.985 0.002 85);
+  --color-ink-100: oklch(0.955 0.004 85);
+  --color-ink-200: oklch(0.9 0.006 85);
+  --color-ink-300: oklch(0.78 0.008 85);
+  --color-ink-400: oklch(0.62 0.01 85);
+  --color-ink-500: oklch(0.48 0.012 85);
+  --color-ink-600: oklch(0.38 0.014 80);
+  --color-ink-700: oklch(0.29 0.016 75);
+  --color-ink-800: oklch(0.21 0.016 70);
+  --color-ink-900: oklch(0.15 0.015 68);
+  --color-ink-950: oklch(0.1 0.014 65);
+
+  /* Champagne: the single accent */
+  --color-gold-100: oklch(0.95 0.035 85);
+  --color-gold-200: oklch(0.9 0.06 85);
+  --color-gold-300: oklch(0.85 0.09 83);
+  --color-gold-400: oklch(0.79 0.115 80);
+  --color-gold-500: oklch(0.72 0.13 77);
+  --color-gold-600: oklch(0.63 0.125 72);
+  --color-gold-700: oklch(0.52 0.105 68);
+  --color-gold-800: oklch(0.42 0.085 65);
+
+  --color-sand: oklch(0.975 0.008 85);
+
+  --radius-xl: 0.875rem;
+  --radius-2xl: 1.25rem;
+  --radius-3xl: 1.75rem;
+}
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    text-rendering: optimizeLegibility;
+  }
+
+  /* A visible, consistent focus ring - keyboard users get the same affordances. */
+  :focus-visible {
+    outline: 2px solid var(--color-gold-600);
+    outline-offset: 2px;
+    border-radius: 0.375rem;
+  }
+
+  /*
+   * Honour the OS "reduce motion" setting. Motion components read this through
+   * MotionConfig too; this is the belt-and-braces for CSS transitions.
+   */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer utilities {
+  /* Scrollbars that do not fight the surrounding surface. */
+  .scrollbar-subtle {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-ink-200) transparent;
+  }
+  .scrollbar-subtle::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+  }
+  .scrollbar-subtle::-webkit-scrollbar-thumb {
+    background-color: var(--color-ink-200);
+    border-radius: 999px;
+  }
+  .scrollbar-subtle::-webkit-scrollbar-track {
+    background: transparent;
+  }
 }

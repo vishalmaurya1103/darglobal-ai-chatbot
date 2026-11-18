@@ -16,11 +16,15 @@
   "dependencies": {
     "@neon/config": "^1.14.3",
     "@neon/env": "^2.1.6",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.75.0",
+    "motion": "^14.14.0",
     "next": "16.4.6",
     "openai": "^7.59.0",
     "pg": "^8.23.1",
     "react": "19.3.0",
     "react-dom": "19.3.0",
+    "tailwind-merge": "^3.7.0",
     "zod": "^4.6.7"
   },
   "devDependencies": {

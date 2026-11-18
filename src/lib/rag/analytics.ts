@@ -23,6 +23,14 @@ const describeScope = (filters: SearchFilters) =>
 
 const KIND_LABELS: Record<string, string> = { project: "projects", listing: "listings" };
 
+/**
+ * DarGlobal's project list is complete, but Wasalt is a sample of a much larger
+ * portal. Without this the model reports a sample count as the site-wide total,
+ * which is the most believable kind of wrong answer this app can produce.
+ */
+const WASALT_COVERAGE_NOTE =
+  "Coverage: DarGlobal figures cover every published project. Wasalt figures cover only the indexed sample of its listings, not the whole portal, so present them as counts within the available data rather than site-wide totals.";
+
 async function countProperties(filters: SearchFilters): Promise<AnalyticsResult> {
   const params: unknown[] = [];
   // Articles are news and blog pages, not properties, so they are never counted.
@@ -46,8 +54,12 @@ async function countProperties(filters: SearchFilters): Promise<AnalyticsResult>
   const breakdown = totals.rows
     .map((row) => `${row.total} ${SOURCE_LABELS[row.source]} ${KIND_LABELS[row.kind] ?? row.kind}`)
     .join(", ");
+  const countsWasalt = totals.rows.some((row) => row.source === "wasalt");
   return {
-    facts: [`Total matching (${describeScope(filters)}): ${total}${breakdown ? `, made up of ${breakdown}` : ""}`],
+    facts: [
+      `Total matching (${describeScope(filters)}): ${total}${breakdown ? `, made up of ${breakdown}` : ""}`,
+      ...(countsWasalt ? [WASALT_COVERAGE_NOTE] : []),
+    ],
     properties: examples.rows.map(toSourceCard),
   };
 }
@@ -90,7 +102,9 @@ async function priceMetric(metric: AggregateMetric, filters: SearchFilters): Pro
   }
 
   if (!result.facts.length) result.facts.push(`No priced listings match ${describeScope(filters)}`);
-  result.facts.push("DarGlobal does not publish prices, so price figures cover Wasalt listings only.");
+  result.facts.push(
+    "DarGlobal does not publish prices, so price figures cover Wasalt listings only, within the indexed sample rather than the whole portal.",
+  );
   return result;
 }
 

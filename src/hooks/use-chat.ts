@@ -73,7 +73,14 @@ export function useChat() {
           }
         }
       } catch (error) {
-        if ((error as Error).name === "AbortError") return;
+        if ((error as Error).name === "AbortError") {
+          updateMessage(assistantId, (message) => ({
+            ...message,
+            content: message.content || "Answer cancelled.",
+            status: "done",
+          }));
+          return;
+        }
         updateMessage(assistantId, (message) => ({
           ...message,
           content: message.content || (error as Error).message,
@@ -86,11 +93,17 @@ export function useChat() {
     [messages, isStreaming],
   );
 
+  /** Cancels the in-flight answer but keeps the transcript. */
+  const stop = useCallback(() => {
+    abortRef.current?.abort();
+    setIsStreaming(false);
+  }, []);
+
   const reset = useCallback(() => {
     abortRef.current?.abort();
     setMessages([]);
     setIsStreaming(false);
   }, []);
 
-  return { messages, isStreaming, send, reset };
+  return { messages, isStreaming, send, stop, reset };
 }

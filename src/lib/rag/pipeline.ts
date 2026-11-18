@@ -75,7 +75,7 @@ async function buildSearchContext(query: ParsedQuery, embedding: number[]): Prom
   };
 }
 
-export async function prepareAnswer(messages: ChatMessage[]): Promise<PreparedAnswer> {
+export async function prepareAnswer(messages: ChatMessage[], signal?: AbortSignal): Promise<PreparedAnswer> {
   const startedAt = performance.now();
   const question = messages[messages.length - 1].content;
   // The question embedding does not depend on the parsed filters, so it is fetched concurrently.
@@ -86,12 +86,12 @@ export async function prepareAnswer(messages: ChatMessage[]): Promise<PreparedAn
     ? await buildAnalyticsContext(query)
     : await buildSearchContext(query, embedding);
   const retrievalMs = Math.round(performance.now() - startedAt);
-  const completion = await streamCompletion(buildPrompt(messages.slice(0, -1), question, context.text));
+  const completion = await streamCompletion(buildPrompt(messages.slice(0, -1), question, context.text), signal);
 
   console.info(
     JSON.stringify({
       event: "chat.answer",
-      question,
+      question: question.slice(0, 200),
       filters: query.filters,
       metric: query.metric,
       sources: context.sources.map((source) => source.id),
