@@ -1,0 +1,11 @@
+node_modules
+.next
+.cache
+.git
+.env*
+.agents
+data
+eval
+Dockerfile
+docker-compose.yml
+README.md

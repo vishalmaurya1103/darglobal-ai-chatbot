@@ -1,0 +1,3902 @@
+[
+  {
+    "id": "wasalt:5879365",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-675-sqm-with-3-bedrooms-5879365",
+    "title": "Apartment 675 SQM with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Rabbwah",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 340000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 675,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al Rabbwah, Jeddah\nBuilt up Area: 675 SQM\nThe property has 3 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 340000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: <1 year\nFacade: 3 Streets\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T07:55:57.204Z"
+  },
+  {
+    "id": "wasalt:5882193",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-600-sqm-with-6-bedrooms-5882193",
+    "title": "Apartment 600 SQM with 6 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Rayaan",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 700000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 6,
+    "bedroomsMax": 6,
+    "areaSqm": 600,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al Rayaan, Jeddah\nBuilt up Area: 600 SQM\nThe property has 6 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 700000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: <1 year\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T07:56:21.839Z"
+  },
+  {
+    "id": "wasalt:5880551",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/land-750-sqm-facing-west-on-15m-width-street-5880551",
+    "title": "Land 750 SQM Facing West on 15m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Khear",
+    "propertyType": "Land",
+    "purpose": "sale",
+    "price": 993750,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": null,
+    "bedroomsMax": null,
+    "areaSqm": 750,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "لايوجد"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nFacade: West\nStreet width: 15 m\nOther obligations on the property: لايوجد \nElectricity: No\nWater: No"
+      }
+    ],
+    "scrapedAt": "2026-11-18T07:56:24.452Z"
+  },
+  {
+    "id": "wasalt:5879939",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-7574-sqm-with-3-bedrooms-5879939",
+    "title": "Apartment 75.74 SQM with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Muanisiyah",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 960000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 75.74,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al-Muanisiyah, Riyadh\nBuilt up Area: 75.74 SQM\nApartment is located on 1 street\nThe property has 3 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 960000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: South West\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T07:56:28.560Z"
+  },
+  {
+    "id": "wasalt:5881001",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/building-14033-sqm-facing-west-5881001",
+    "title": "Building 140.33 SQM Facing West",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Yasmeen",
+    "propertyType": "Building",
+    "purpose": "sale",
+    "price": 100000000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": null,
+    "bedroomsMax": null,
+    "areaSqm": 140.33,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Building for Sale in Al-Yasmeen, Riyadh\nBuilding is located on 1 street, West with 80 m width\nBuilding has electricity and water Connections\nBuilding year: 2026\nPrice: 100000000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: West\nStreet width: 80 m\nOther obligations on the property: .\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T07:56:31.814Z"
+  },
+  {
+    "id": "wasalt:5874968",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-20866-sqm-with-6-bedrooms-5874968",
+    "title": "Apartment 208.66 SQM with 6 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Abha",
+    "district": "Al Rawabi",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 500000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 6,
+    "bedroomsMax": 6,
+    "areaSqm": 208.66,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "شقة تمليك بدرج داخلي\nالسـعر 500.000\nالمساحة 209\nابها حي الروابي\nمجلس رجال\nمقلط\nصالة\nمجلس نساء\n3 غرف نوم\n4 دورات مياه\nمطبخ\nغرفة غسيل\nسطح خاص\nعداد كهرباء مستقل\nعداد مياه مستقل\nبلكونه\nاطلاله\nالواجهة غربية 15م"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: West\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T07:56:35.339Z"
+  },
+  {
+    "id": "wasalt:5878675",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/floor-17676-sqm-with-4-bedrooms-5878675",
+    "title": "Floor 176.76 SQM with 4 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Maizaliyah",
+    "propertyType": "Floor",
+    "purpose": "sale",
+    "price": 1100000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 4,
+    "bedroomsMax": 4,
+    "areaSqm": 176.76,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Floor for Sale in Al-Maizaliyah, Riyadh\nBuilt up Area: 176.76 SQM\nProperty Floor : Upper\nThe property has 4 bedrooms\nFloor has electricity and water Connections\nBuilding year: 2026\nPrice: 1100000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T07:56:37.639Z"
+  },
+  {
+    "id": "wasalt:5878633",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/villa-200-sqm-facing-west-on-15m-width-street-5878633",
+    "title": "Villa 200 SQM Facing West on 15m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Twaeeq",
+    "propertyType": "Villa",
+    "purpose": "sale",
+    "price": 1150000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 6,
+    "bedroomsMax": 6,
+    "areaSqm": 200,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Villa for Sale in Twaeeq, Riyadh\nLand Area: 200 SQM\nVilla is located on 1 street, West with 15 m width\nThe property has 6 bedrooms\nVilla has electricity and water Connections\nBuilding year: 2026\nPrice: 1150000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: West\nStreet width: 15 m\nOther obligations on the property: لايوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T07:56:40.106Z"
+  },
+  {
+    "id": "wasalt:5869330",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-1588-sqm-with-4-bedrooms-5869330",
+    "title": "Apartment 1588 SQM with 4 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Yaqoot",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 630000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 4,
+    "bedroomsMax": 4,
+    "areaSqm": 1588,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al Yaqoot, Jeddah\nBuilt up Area: 1588 SQM\nThe property has 4 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 630000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: <1 year\nFacade: 3 Streets\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T07:56:40.616Z"
+  },
+  {
+    "id": "wasalt:5881970",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-14504-sqm-with-4-bedrooms-5881970",
+    "title": "Apartment 145.04 SQM with 4 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Nahdah",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 1020000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 4,
+    "bedroomsMax": 4,
+    "areaSqm": 145.04,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "🌟* *بدء البيع** 🌟\n🔺عملاء الكاش / بنك غير مدعوم🔺\n🌟*مميزاته*🌟\n🔹اسقف عالية\n🔹مصعدين فل اوتوماتك\n🔹كاميرات مراقبة للمواقف وكل الادوار\n🔹مدخل مكيف\n🔹شقق سمارت(تحكم ذكي)\n🔹تأسيس تكييف دكت بالكامل\n🔹بالقرب من الخدمات العامة\n🔹بنية تحتية متكاملة في الموقع\n🔹حساسات حركة في الممرات وفي المدخل الرئيسي\n🔹نظام فندقي\n🔹 ضمانات تصل حتى 25 سنة\n🔹ظهير تجاري مجاور لمسجد و حديقة.\nشقة للبيع في حي النهضة٬ جدة\nمسطحات البناء 145.04 متر مربع\nمكونة من: 4 غرف\nواصل كهرباء\nواصل مياه\nسنة البناء: 2026\nسعرها 1020000 ر.س"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لايوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T07:57:19.780Z"
+  },
+  {
+    "id": "wasalt:5883187",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-12059-sqm-with-3-bedrooms-5883187",
+    "title": "Apartment 120.59 SQM with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "An-Narjis",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 950000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 120.59,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "شقة للبيع في حي النرجس٬ الرياض\nمسطحات البناء 120.59 متر مربع\nمكونة من: 3 غرف\nواصل كهرباء\nواصل مياه\nسنة البناء: 2023\nسعرها 950000 ر.س\n* *شركة بي فاوند العقارية*\n• رقم العرض : 2265\n• النوع : شقة للبيع\n• الحي : النرجس\n•المساحة : 120 م٢\n* العمر : 3 سنوات\n* الشارع : 30 جنوبي\n• السعر : 950.000\n* الرهن : 697.000\n* الوصف:-\nشقة بالنرجس للببع في عنارة بالدور الثاني\nمكيفات راكبه ومطبخ راكب\nمؤجرة حالياً\n3 غرف نوم منها غرفة ماستر\nغرفتين بينهم دورة مياة\nغرفة خادمة او غرفة غسيل\nمنور خارجي صغير\nسمارت هوم راكب\nمجلس بدورة مياة\nمطبخ\nموقف خارجي خاص بالشقة\n⬅️دخل سنو 60.000\n⬅️ البيع كاش فقط\nرقم الترخيص الإعلاني: 7201035202"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: 3 years\nFacade: 3 Streets\nOther obligations on the property: لايوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T07:58:01.610Z"
+  },
+  {
+    "id": "wasalt:5874621",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-with-4-bedrooms-5874621",
+    "title": "Apartment with 4 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Yarmuk",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 1150000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 4,
+    "bedroomsMax": 4,
+    "areaSqm": 166,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Un-Furnished\nApartment for Sale in Al-Yarmuk, Riyadh\nBuilt up Area: 166 SQM\nProperty Floor : 3\nThe property has 1 floor, 4 bedrooms, 4 bathrooms, 1 living room, 1 guest room\nApartment has electricity and water Connections\nBuilding year: 2026\nApartment is: Un-Furnished\nProperty amenities:\n- Park\n- School\n- Mosque\n- Health Centre\n- Retail Outlet\n- Maids Room\n- Garden\n- Annex\n- Terrace\n- Rooftop\n- Storage Room\n- Indoor Parking\n- Yard\n- 2 Separate Entrances\nProperty fixtures:\n- Jacuzzi\n- Marble Flooring\n- Ceramic Flooring\n- Central AC (Package)\n- Security System\n- Fire Alarm System\n- Fire Fighting System\n- Elevator\n- CCTV System\nPrice: 1150000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لا يوجد\nElectricity: Yes\nWater: Yes\nTotal Floors: 1\nProperty Floor: 3\nFurniture: Un-Furnished\nNumber of Parkings: 2\nFurnishing: Un-Furnished"
+      }
+    ],
+    "scrapedAt": "2026-11-18T07:58:04.107Z"
+  },
+  {
+    "id": "wasalt:5874746",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/villa-437-sqm-facing-south-on-12m-width-street-5874746",
+    "title": "Villa 437 SQM Facing South on 12m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Nahdah",
+    "propertyType": "Villa",
+    "purpose": "sale",
+    "price": 3500000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 6,
+    "bedroomsMax": 6,
+    "areaSqm": 437,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Villa for Sale in Al Nahdah, Jeddah\nLand Area: 437 SQM\nVilla is located on 1 street, South with 12 m width\nThe property has 6 bedrooms\nVilla has electricity and water Connections\nBuilding year: 2015\nPrice: 3500000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: 10+ years\nFacade: South\nStreet width: 12 m\nOther obligations on the property: مرهون\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T07:58:10.240Z"
+  },
+  {
+    "id": "wasalt:5876047",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/villa-525-sqm-facing-south-on-20m-width-street-5876047",
+    "title": "Villa 525 SQM Facing South on 20m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Twaeeq",
+    "propertyType": "Villa",
+    "purpose": "sale",
+    "price": 2150000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 5,
+    "bedroomsMax": 5,
+    "areaSqm": 525,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Villa for Sale in Twaeeq, Riyadh\nLand Area: 525 SQM\nVilla is located on 1 street, South with 20 m width\nThe property has 5 bedrooms\nVilla has electricity and water Connections\nBuilding year: 2015\nPrice: 2150000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: 10+ years\nFacade: South\nStreet width: 20 m\nOther obligations on the property: لا يوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T07:58:11.227Z"
+  },
+  {
+    "id": "wasalt:5877630",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/rest-house-450-sqm-facing-north-on-20m-width-street-5877630",
+    "title": "Rest House 450 SQM Facing North on 20m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Arid",
+    "propertyType": "Rest House",
+    "purpose": "sale",
+    "price": 6300000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 4,
+    "bedroomsMax": 4,
+    "areaSqm": 450,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "استراحة للبيع\n🔹 المساحة: 900 م²\n🔹 الاطوال : 28 م² × 32,12 م²\n🔹 عرض الشارع : 20 م²\n🔹 الواجهة : شمالية\nالتفاصيل:\n•مجلس ضيافة\n•غرفتين نوم\n•جلسة ترفيه\n•مطبخان واحد للطبخ والاخر امريكي\n•مسبح\n•مسطحات خضراء\n•غرفة حارس\nتنويه\nالاستراحة على قطعتين 450 م² لكل قطعة\n🏡 تصميم مناسب للإستراحات الخاصه او التجارية\nللاستفسارات والمساعدة :\nعبدالعزيز : 0571177701"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: 8 years\nFacade: North\nStreet width: 20 m\nOther obligations on the property: لا يوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T07:58:14.322Z"
+  },
+  {
+    "id": "wasalt:5877207",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/building-5475-sqm-facing-south-5877207",
+    "title": "Building 547.5 SQM Facing South",
+    "country": "Saudi Arabia",
+    "city": "Khamis Mushait",
+    "district": "Al-Qafilah",
+    "propertyType": "Building",
+    "purpose": "sale",
+    "price": 695000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": null,
+    "bedroomsMax": null,
+    "areaSqm": 547.5,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Building for Sale in Al-Qafilah, Khamis Mushait\nBuilding is located on 1 street, South with 15 m width\nBuilding has electricity and water Connections\nBuilding year: 2026\nPrice: 695000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: South\nStreet width: 15 m\nOther obligations on the property: لايوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T07:58:14.869Z"
+  },
+  {
+    "id": "wasalt:5872456",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-124-sqm-with-2-bedrooms-5872456",
+    "title": "Apartment 124 SQM with 2 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Mahdiyah",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 850000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 2,
+    "bedroomsMax": 2,
+    "areaSqm": 124,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al-Mahdiyah, Riyadh\nBuilt up Area: 124 SQM\nThe property has 2 bedrooms\nApartment has electricity Connections\nBuilding year: 2026\nPrice: 850000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لا\nElectricity: Yes\nWater: No"
+      }
+    ],
+    "scrapedAt": "2026-11-18T07:59:27.661Z"
+  },
+  {
+    "id": "wasalt:5876380",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/land-1200-sqm-facing-west-on-30m-width-street-5876380",
+    "title": "Land 1200 SQM Facing West on 30m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Teebah",
+    "propertyType": "Land",
+    "purpose": "sale",
+    "price": 5208000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": null,
+    "bedroomsMax": null,
+    "areaSqm": 1200,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "📍 أرض تجارية سكنية مميزة في حي طيبة – جدة\nفرصة استثمارية ذهبية في موقع حيوي ومتشعب الحركة، تقع الأرض على شارع موازي لطريق المدينة ونافذة مباشرة إلى طريق الملك سعود، مما يمنحها قيمة تجارية عالية وإمكانية استثمارية متعددة.\n💠 مميزات الأرض:\nموقع استراتيجي قريب من الطرق الرئيسية تصلح لإقامة مشروع متكامل\nمثل:\n▫️ مجمع تجاري\n▫️ مجمع طبي أو عيادات\n▫️ مطاعم ودرايف ثرو\n▫️ ملاعب أو نادي رياضي مناسبة للمستثمرين الباحثين عن عائد طويل الأمد\n🌆 موقع يجمع بين الحركة التجارية والحيوية السكنية، مما يجعلها خيارًا مثاليًا للاستثمار الناجح."
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nFacade: West\nStreet width: 30 m\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T07:59:27.741Z"
+  },
+  {
+    "id": "wasalt:5867406",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/building-308-sqm-facing-north-5867406",
+    "title": "Building 308 SQM Facing North",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Arid",
+    "propertyType": "Building",
+    "purpose": "sale",
+    "price": 15000000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": null,
+    "bedroomsMax": null,
+    "areaSqm": 308,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Building for Sale in Al-Arid, Riyadh\nBuilding is located on 1 street, North West with 36 m width\nBuilding has electricity and water Connections\nBuilding year: 2026\nPrice: 15000000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: North West\nStreet width: 36 m\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T07:59:49.930Z"
+  },
+  {
+    "id": "wasalt:5875821",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/villa-47079-sqm-facing-north-on-25m-width-street-5875821",
+    "title": "Villa 470.79 SQM Facing North on 25m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Makkah Al Mukarramah",
+    "district": "Alhaglahalgadeed",
+    "propertyType": "Villa",
+    "purpose": "sale",
+    "price": 1000000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 5,
+    "bedroomsMax": 5,
+    "areaSqm": 470.79,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "فيلا سكنية للبيع في حي الهجلة الجديد٬ مكة المكرمة\nمساحة الأرض 470.79 متر مربع\nيحدها 1 شارع: شمالية٬\nبعرض 25 م\nمكونة من: 5 غرف\nواصل كهرباء\nواصل مياه\nسنة البناء: 2026\nسعرها 1000000 ر.س\nفلل فاخره للبيع\nمكه - ولى العهد 5\nشارع 25 شرقي\nدورين وبدروم\nموسس مصعد\nمدخل سياره\nحوش\n_تفاصيل_\nالدور الارضي ✅\nمجلس رجال _مجلس نساء\nمطبخ _صاله _ 2دوره مياه _\nالدور الاول ✅\n1 غرفه نوم اطفال _ 2 غرفه ماستر\n3 دوره مياه _ صاله\nمطبخ اوفيس مع غرفه غسيل\nالملحق ✅ - سطح\nمساحه البناء 470 م📐"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: North\nStreet width: 25 m\nOther obligations on the property: لاتوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T07:59:50.652Z"
+  },
+  {
+    "id": "wasalt:5872311",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-138-sqm-with-3-bedrooms-5872311",
+    "title": "Apartment 138 SQM with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Mahdiyah",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 930000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 138,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al-Mahdiyah, Riyadh\nBuilt up Area: 138 SQM\nThe property has 3 bedrooms\nApartment has electricity Connections\nBuilding year: 2026\nPrice: 930000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لا\nElectricity: Yes\nWater: No"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:00:18.262Z"
+  },
+  {
+    "id": "wasalt:5867985",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/building-279-sqm-facing-west-5867985",
+    "title": "Building 279 SQM Facing West",
+    "country": "Saudi Arabia",
+    "city": "Khobar",
+    "district": "Al Khobar Al Shamalyah",
+    "propertyType": "Building",
+    "purpose": "sale",
+    "price": 2500000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": null,
+    "bedroomsMax": null,
+    "areaSqm": 279,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Building for Sale in Al Khobar Al Shamalyah, Khobar\nBuilding is located on 1 street, West with 18.3 m width\nBuilding has electricity and water Connections\nBuilding year: 2015\nPrice: 2500000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: 10+ years\nFacade: West\nStreet width: 18.3 m\nOther obligations on the property: لا يوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:00:19.479Z"
+  },
+  {
+    "id": "wasalt:5871197",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/floor-146-sqm-with-5-bedrooms-5871197",
+    "title": "Floor 146 SQM with 5 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Ar-Rimal",
+    "propertyType": "Floor",
+    "purpose": "sale",
+    "price": 1000000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 5,
+    "bedroomsMax": 5,
+    "areaSqm": 146,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Floor for Sale in Ar-Rimal, Riyadh\nBuilt up Area: 146 SQM\nProperty Floor : Upper\nThe property has 5 bedrooms\nFloor has electricity and water Connections\nBuilding year: 2026\nPrice: 1000000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لا يوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:00:52.158Z"
+  },
+  {
+    "id": "wasalt:5870285",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/floor-315-sqm-with-5-bedrooms-5870285",
+    "title": "Floor 315 SQM with 5 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Janadriyah",
+    "propertyType": "Floor",
+    "purpose": "sale",
+    "price": 1050000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 5,
+    "bedroomsMax": 5,
+    "areaSqm": 315.88,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "الجنادرية تاون هاوس علوي الدور الأول عباره عن\nمجلس مقلط صاله مطبخ\nغرفه نوم\nالدور الثاني\nثلاث غرف نوم و اوفيس واثنين سطح واثنين حمام\nوجهة جنوبيه\nشارع 20\nمساحه 330 متر\n1050.000\n*مؤسس مصعد*\nللتواصل:\nسلطان 0550523888\nعبدالعزيز 0550031177\nأبو مشعل 0545552955"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لا يوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:00:56.303Z"
+  },
+  {
+    "id": "wasalt:5846137",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/villa-472-sqm-facing-north-on-20m-width-street-5846137",
+    "title": "Villa 472 SQM Facing North on 20m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Mahdiyah",
+    "propertyType": "Villa",
+    "purpose": "sale",
+    "price": 2000000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 5,
+    "bedroomsMax": 5,
+    "areaSqm": 472,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Villa for Sale in Al-Mahdiyah, Riyadh\nLand Area: 472 SQM\nVilla is located on 1 street, North with 20 m width\nThe property has 5 bedrooms\nVilla has electricity and water Connections\nBuilding year: 2026\nPrice: 2000000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: North\nStreet width: 20 m\nOther obligations on the property: لا يوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:01:24.725Z"
+  },
+  {
+    "id": "wasalt:5851526",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/villa-349-sqm-facing-north-on-15m-width-street-5851526",
+    "title": "Villa 349 SQM Facing North on 15m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Mahdiyah",
+    "propertyType": "Villa",
+    "purpose": "sale",
+    "price": 1700000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 5,
+    "bedroomsMax": 5,
+    "areaSqm": 349,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Villa for Sale in Al-Mahdiyah, Riyadh\nLand Area: 349 SQM\nVilla is located on 1 street, North with 15 m width\nThe property has 5 bedrooms\nVilla has electricity Connections\nBuilding year: 2026\nPrice: 1700000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: North\nStreet width: 15 m\nOther obligations on the property: لا\nElectricity: Yes\nWater: No"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:01:24.731Z"
+  },
+  {
+    "id": "wasalt:5856508",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/villa-200-sqm-facing-north-on-20m-width-street-5856508",
+    "title": "Villa 200 SQM Facing North on 20m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Khobar",
+    "district": "Al Sheraa",
+    "propertyType": "Villa",
+    "purpose": "sale",
+    "price": 1100000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 6,
+    "bedroomsMax": 6,
+    "areaSqm": 200,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Villa for Sale in Al Sheraa, Khobar\nLand Area: 200 SQM\nVilla is located on 1 street, North with 20 m width\nThe property has 6 bedrooms\nVilla has electricity and water Connections\nBuilding year: 2026\nPrice: 1100000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: North\nStreet width: 20 m\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:01:43.745Z"
+  },
+  {
+    "id": "wasalt:5856161",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/villa-250-sqm-facing-north-on-15m-width-street-5856161",
+    "title": "Villa 250 SQM Facing North on 15m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Alttayif",
+    "district": "Al Rahbah",
+    "propertyType": "Villa",
+    "purpose": "sale",
+    "price": 780000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 8,
+    "bedroomsMax": 8,
+    "areaSqm": 250,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Villa for Sale in Al Rahbah, Alttayif\nLand Area: 250 SQM\nVilla is located on 1 street, North with 15 m width\nThe property has 8 bedrooms\nVilla has electricity and water Connections\nBuilding year: 2026\nPrice: 780000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: <1 year\nFacade: North\nStreet width: 15 m\nOther obligations on the property: لا يوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:01:48.949Z"
+  },
+  {
+    "id": "wasalt:5859403",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-with-6-bedrooms-5859403",
+    "title": "Apartment with 6 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Makkah Al Mukarramah",
+    "district": "Alsharaea",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 650000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 6,
+    "bedroomsMax": 6,
+    "areaSqm": 206,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Un-Furnished\nApartment for Sale in Alsharaea, Makkah Al Mukarramah\nBuilt up Area: 206 SQM\nProperty Floor : 3\nApartment is located on 1 street\nThe property has 6 bedrooms, 4 bathrooms, 1 living room, 2 guest rooms\nApartment has electricity and water Connections\nBuilding year: 2026\nApartment is: Un-Furnished\nProperty amenities:\n- Maids Room\n- 2 Separate Entrances\nProperty fixtures:\n- Split AC\n- Elevator\nPrice: 650000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: East\nOther obligations on the property: لا يوجد\nElectricity: Yes\nWater: Yes\nProperty Floor: 3\nFurniture: Un-Furnished\nNumber of Parkings: 1\nFurnishing: Un-Furnished"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:03:24.900Z"
+  },
+  {
+    "id": "wasalt:5860313",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/floor-205-sqm-with-3-bedrooms-5860313",
+    "title": "Floor 205 SQM with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Awaly",
+    "propertyType": "Floor",
+    "purpose": "sale",
+    "price": 950000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 205,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Floor for Sale in Al-Awaly, Riyadh\nBuilt up Area: 205 SQM\nProperty Floor : Upper\nThe property has 3 bedrooms\nFloor has electricity and water Connections\nBuilding year: 2026\nPrice: 950000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لايوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:03:24.902Z"
+  },
+  {
+    "id": "wasalt:5861300",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-600-sqm-with-6-bedrooms-5861300",
+    "title": "Apartment 600 SQM with 6 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Salamah",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 980000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 6,
+    "bedroomsMax": 6,
+    "areaSqm": 600,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al Salamah, Jeddah\nBuilt up Area: 600 SQM\nThe property has 6 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 980000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: <1 year\nFacade: 3 Streets\nOther obligations on the property: لايوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:03:52.369Z"
+  },
+  {
+    "id": "wasalt:5858683",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-1666-sqm-with-3-bedrooms-5858683",
+    "title": "Apartment 1666 SQM with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Faiha|A",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 370000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 1666.35,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al Faiha|A, Jeddah\nBuilt up Area: 1666 SQM\nApartment is located on 1 street\nThe property has 3 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 370000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: <1 year\nFacade: East\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:03:54.127Z"
+  },
+  {
+    "id": "wasalt:5858489",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-123-sqm-with-3-bedrooms-5858489",
+    "title": "Apartment 123 SQM with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Rawdhah",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 700000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 123,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al Rawdhah, Jeddah\nBuilt up Area: 123 SQM\nThe property has 3 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 700000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لايوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:03:59.802Z"
+  },
+  {
+    "id": "wasalt:5863422",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/villa-827-sqm-facing-south-on-15m-width-street-5863422",
+    "title": "Villa 827 SQM Facing South on 15m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Sheraa",
+    "propertyType": "Villa",
+    "purpose": "sale",
+    "price": 4000000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 22,
+    "bedroomsMax": 22,
+    "areaSqm": 827,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Villa for Sale in Al Sheraa, Jeddah\nLand Area: 827 SQM\nVilla is located on 1 street, South with 15 m width\nThe property has 22 bedrooms\nVilla has electricity and water Connections\nBuilding year: 2024\nPrice: 4000000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: 2 years\nFacade: South\nStreet width: 15 m\nOther obligations on the property: لايوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:04:00.998Z"
+  },
+  {
+    "id": "wasalt:5853605",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-with-4-bedrooms-5853605",
+    "title": "Apartment with 4 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Alttayif",
+    "district": "Al Akhbar",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 400000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 4,
+    "bedroomsMax": 4,
+    "areaSqm": 156,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Un-Furnished\nApartment for Sale in Al Akhbar, Alttayif\nBuilt up Area: 156 SQM\nApartment is located on 1 street\nThe property has 4 bedrooms, 3 bathrooms, 1 living room, 1 guest room\nApartment has electricity and water Connections\nBuilding year: 2026\nApartment is: Un-Furnished\nProperty amenities:\n- School\n- Mosque\n- Health Centre\n- Retail Outlet\n- Rooftop\n- Indoor Parking\n- 2 Separate Entrances\nProperty fixtures:\n- Split AC\n- Elevator\n- CCTV System\nPrice: 400000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: East\nOther obligations on the property: لا يوجد\nElectricity: Yes\nWater: Yes\nFurniture: Un-Furnished\nFurnishing: Un-Furnished"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:04:04.583Z"
+  },
+  {
+    "id": "wasalt:5849414",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-5849414",
+    "title": "Apartment",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Malqa",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 1000000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": null,
+    "bedroomsMax": null,
+    "areaSqm": 119,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al-Malqa, Riyadh\nBuilt up Area: 119 SQM\nThe property has 2 bathrooms, 1 living room, 1 guest room\nApartment has electricity and water Connections\nBuilding year: 2016\nPrice: 1000000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: 10 years\nFacade: 3 Streets\nOther obligations on the property: لايوجد \nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:04:05.121Z"
+  },
+  {
+    "id": "wasalt:5853980",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-153-sqm-with-3-bedrooms-5853980",
+    "title": "Apartment 153 SQM with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Khobar",
+    "district": "Al Sawari",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 590000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 153,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "اعلان رقم 3041\nتملك عقارك مع فلل وشقق للبيع بشكل تمويل ميسر مع تخليص معاملات عقاريه وساطه بنكية معتمدون لدى البنوك مع توحيد الالتزامات توفير أعلى مبلغ تمويل بأقل نسبه هامش ربح وبأقل قسط استقطاع من الراتب الشهري ودمج الدعم السكنى مع فريق عمل مختص مع أليه البنوك كامله وسرعه إنجاز المعاملات وتسهيل جميع الإجراءات حلول الدفعه الاولى تأكيد حسبه تمويل عقارى وشخصي مع احتساب مده التمويل والقسط الاجمالى والدعم الشهرى والقسط بعد الدعم\nمستشارك العقارى عليك الاختيار وعلينا التنفيذ بأقل وقت ممكن لتملك العقار المناسب لك ولأسرتك"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: West\nOther obligations on the property: لايوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:04:07.774Z"
+  },
+  {
+    "id": "wasalt:5854709",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-153-sqm-with-4-bedrooms-5854709",
+    "title": "Apartment 153 SQM with 4 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Dahrat Laban",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 980000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 4,
+    "bedroomsMax": 4,
+    "areaSqm": 153,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Dahrat Laban, Riyadh\nBuilt up Area: 153 SQM\nApartment is located on 1 street\nThe property has 4 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 980000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: North\nOther obligations on the property: لا يوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:04:08.256Z"
+  },
+  {
+    "id": "wasalt:5851185",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/villa-195-sqm-facing-north-on-15m-width-street-5851185",
+    "title": "Villa 195 SQM Facing North on 15m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Khobar",
+    "district": "Al Sawari",
+    "propertyType": "Villa",
+    "purpose": "sale",
+    "price": 940000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 6,
+    "bedroomsMax": 6,
+    "areaSqm": 195,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Villa for Sale in Al Sawari, Khobar\nLand Area: 195 SQM\nVilla is located on 1 street, North with 15 m width\nThe property has 6 bedrooms\nVilla has electricity and water Connections\nBuilding year: 2026\nPrice: 940000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: North\nStreet width: 15 m\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:04:10.891Z"
+  },
+  {
+    "id": "wasalt:5850222",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-99-sqm-with-3-bedrooms-5850222",
+    "title": "Apartment 99 SQM with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Mahdiyah",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 650000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 99,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al-Mahdiyah, Riyadh\nBuilt up Area: 99 SQM\nApartment is located on 1 street\nThe property has 3 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 650000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: North\nOther obligations on the property: لا يوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:04:11.141Z"
+  },
+  {
+    "id": "wasalt:5850960",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/land-281-sqm-facing-south-on-15m-width-street-5850960",
+    "title": "Land 281 SQM Facing South on 15m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Qairawan",
+    "propertyType": "Land",
+    "purpose": "sale",
+    "price": 2390625,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": null,
+    "bedroomsMax": null,
+    "areaSqm": 281,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Land for Sale in Al-Qairawan, Riyadh\nLand Area: 281 SQM\nLand is located on 1 street, South with 15 m width\nLand has electricity and water Connections\nPrice: 2390625 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nFacade: South\nStreet width: 15 m\nOther obligations on the property: لايوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:04:11.919Z"
+  },
+  {
+    "id": "wasalt:5846996",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-with-6-bedrooms-5846996",
+    "title": "Apartment with 6 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jazan",
+    "district": "Al Suwais 1",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 550000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 6,
+    "bedroomsMax": 6,
+    "areaSqm": 172,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al Suwais 1, Jazan\nThe property has 6 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 550000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لا يوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:04:12.087Z"
+  },
+  {
+    "id": "wasalt:5844794",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-with-3-bedrooms-5844794",
+    "title": "Apartment with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Mahdiyah",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 770000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 106,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al-Mahdiyah, Riyadh\nApartment is located on 1 street\nThe property has 3 bedrooms\nApartment has electricity Connections\nBuilding year: 2026\nPrice: 770000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: West\nOther obligations on the property: لا\nElectricity: Yes\nWater: No"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:04:12.995Z"
+  },
+  {
+    "id": "wasalt:5847853",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/floor-180-sqm-with-5-bedrooms-5847853",
+    "title": "Floor 180 SQM with 5 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Twaeeq",
+    "propertyType": "Floor",
+    "purpose": "sale",
+    "price": 950000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 5,
+    "bedroomsMax": 5,
+    "areaSqm": 180,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Floor for Sale in Twaeeq, Riyadh\nBuilt up Area: 180 SQM\nProperty Floor : Upper\nThe property has 5 bedrooms\nFloor has electricity and water Connections\nBuilding year: 2026\nPrice: 950000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لا يوجد \nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:04:13.146Z"
+  },
+  {
+    "id": "wasalt:5844981",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-with-3-bedrooms-5844981",
+    "title": "Apartment with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Mahdiyah",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 850000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 129.56,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al-Mahdiyah, Riyadh\nThe property has 3 bedrooms\nApartment has electricity Connections\nBuilding year: 2026\nPrice: 850000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لا\nElectricity: Yes\nWater: No"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:04:14.075Z"
+  },
+  {
+    "id": "wasalt:5844125",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/villa-300-sqm-facing-west-on-15m-width-street-5844125",
+    "title": "Villa 300 SQM Facing West on 15m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Qairawan",
+    "propertyType": "Villa",
+    "purpose": "sale",
+    "price": 4000000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 5,
+    "bedroomsMax": 5,
+    "areaSqm": 300,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "✨ للبيع فلل بحي القيروان ✨\nالمساحة : - 300 -\nتوجد مساحات اخرى\n🌟المواصفات/\n* درج صاله\n* تكييف مخفي ( مجلس الرجال + الصالة + الغرفة الرئيسية)\n* مسبح\n*مصعد ( تأسيس)\n*غرفه سائق\n🌟 الدور الأرضي:\nمجلس رجال + صالة طعام + مجلس نساء + صاله + مطبخ+مستودع خارجي + غرفه خادمه\n🌟 الدور الأول:\nغرفه رئيسيه مع غرفة ملابس+ 3 اجنحة + صالة\n🌟السطح:\nجناح + صاله ألعاب + جلسة مفتوحة\nبالسطح\n+غرفه غسيل اوفست\n*إشراف هندسي لمراحل البناء.\n* فحص تربه\nتوجد ضمانات على المشروع\n🌟الاسعار :\n300 متر 4 مليون\nقابل للتفاوض"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: West\nStreet width: 15 m\nOther obligations on the property: لا توجد \nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:04:14.212Z"
+  },
+  {
+    "id": "wasalt:5841834",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-with-3-bedrooms-5841834",
+    "title": "Apartment with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Mahdiyah",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 850000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 129,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al-Mahdiyah, Riyadh\nThe property has 3 bedrooms\nApartment has electricity Connections\nBuilding year: 2026\nPrice: 850000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لا\nElectricity: Yes\nWater: No"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:04:44.271Z"
+  },
+  {
+    "id": "wasalt:5843240",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/floor-211-sqm-with-5-bedrooms-5843240",
+    "title": "Floor 211 SQM with 5 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al Bayan",
+    "propertyType": "Floor",
+    "purpose": "sale",
+    "price": 900000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 5,
+    "bedroomsMax": 5,
+    "areaSqm": 211.34,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "فرصة سكنية مميزة في حي ( البيان شرق الرياض )\n📍موقع متطور وقريب من جميع الخدمات.\n🔘 ( دور علوي )\n✏️ المساحة :\n💵 السعر : 900 الف\n🏠 المواصفات:\n•مجلس + دورة مياه\n• 3 غرف نوم ماستر\n•مطبخ\n• 5 دورة مياه\n•مقلط\n•مستودع\n——-\nمواصفات اخرى :\n• كهرب وماء واصلين\n• شارع 25\n• مطابق للكود السعودي\n•شاملة الضمانات\nللتواصل : ابو سند | 0581032214"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لا يوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:04:46.963Z"
+  },
+  {
+    "id": "wasalt:5879878",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/floor-21938-sqm-with-5-bedrooms-5879878",
+    "title": "Floor 219.38 SQM with 5 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Shubra",
+    "propertyType": "Floor",
+    "purpose": "sale",
+    "price": 790000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 5,
+    "bedroomsMax": 5,
+    "areaSqm": 219.38,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "لا يوجد"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لا يوجد \nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:06:14.211Z"
+  },
+  {
+    "id": "wasalt:5881339",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-16559-sqm-with-5-bedrooms-5881339",
+    "title": "Apartment 165.59 SQM with 5 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Swaryee",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 820000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 5,
+    "bedroomsMax": 5,
+    "areaSqm": 165.59,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al Swaryee, Jeddah\nBuilt up Area: 165.59 SQM\nApartment is located on 1 street\nThe property has 5 bedrooms\nApartment has electricity Connections\nBuilding year: 2026\nPrice: 820000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: West\nOther obligations on the property: لايوجد\nElectricity: Yes\nWater: No"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:06:14.255Z"
+  },
+  {
+    "id": "wasalt:5874083",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/land-504-sqm-facing-west-on-15m-width-street-5874083",
+    "title": "Land 504 SQM Facing West on 15m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Aldammam",
+    "district": "Al Husam",
+    "propertyType": "Land",
+    "purpose": "sale",
+    "price": 1209600,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": null,
+    "bedroomsMax": null,
+    "areaSqm": 504,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "اسم البلدية : شرق الدمام\nرقم المخطط : ش د 1348\nرقم قطعة الأرض : 155\nاسم الحي : الحسام\nالاستخدام الرئيسي : سكني\nاشتراطات البناء : سكني بنسبة 60٪ من مساحة الأرض بارتفاع عدد 2 طابق بحد أقصى 10 متر\nعدد الوحدات : وحدتان بالقطعة (دوبلكس)"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nFacade: West\nStreet width: 15 m\nOther obligations on the property: لا يوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:06:44.258Z"
+  },
+  {
+    "id": "wasalt:5873762",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-5873762",
+    "title": "Apartment",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Rawdhah",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 760000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": null,
+    "bedroomsMax": null,
+    "areaSqm": 130,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Un-Furnished\nApartment for Sale in Al Rawdhah, Jeddah\nBuilt up Area: 130 SQM\nProperty Floor : 2\nThe property has 4 floors, 3 bathrooms, 2 living rooms, 2 guest rooms\nApartment has electricity and water Connections\nBuilding year: 2026\nApartment is: Un-Furnished\nProperty amenities:\n- Park\n- School\n- Mosque\n- Health Centre\n- Retail Outlet\n- Maids Room\n- Garden\n- Indoor Staircase\n- 2 Separate Entrances\nProperty fixtures:\n- Double Glazed Windows\n- Gypsum Board Decoration\n- Split AC\n- Security System\n- Elevator\n- CCTV System\nPrice: 760000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes\nTotal Floors: 4\nProperty Floor: 2\nFurniture: Un-Furnished\nNumber of Parkings: 1\nFurnishing: Un-Furnished"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:08:08.332Z"
+  },
+  {
+    "id": "wasalt:5878571",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/villa-21897-sqm-facing-north-on-20m-width-street-5878571",
+    "title": "Villa 218.97 SQM Facing North on 20m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Twaeeq",
+    "propertyType": "Villa",
+    "purpose": "sale",
+    "price": 900000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 6,
+    "bedroomsMax": 6,
+    "areaSqm": 218.97,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "لا يوجد"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: North\nStreet width: 20 m\nOther obligations on the property: لا يوجد \nElectricity: Yes\nWater: No"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:09:01.203Z"
+  },
+  {
+    "id": "wasalt:5882896",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/land-600-sqm-facing-east-on-32m-width-street-5882896",
+    "title": "Land 600 SQM Facing East on 32m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al-Safwa",
+    "propertyType": "Land",
+    "purpose": "sale",
+    "price": 490200,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": null,
+    "bedroomsMax": null,
+    "areaSqm": 600,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "فرصة استثمارية مميزة 🔥\nأرض بموقع استثنائي (T) على شارع 32\nمقابل مستشفى مباشرة\nومرشحة للتحويل التجاري حسب توقع المختصين\n▪️ مساحة القطعة: 600م\n▪️ الأبعاد: 15 × 40\n▪️ متوفر إمكانية ضم القطعة المجاورة\nليصبح إجمالي المساحة 1200م بواجهة 30 متر\n✅ من أفضل أسعار المخطط مقارنة بالموقع والمميزات"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nFacade: East\nStreet width: 32 m\nOther obligations on the property: لايوجد\nElectricity: Yes\nWater: No"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:09:03.102Z"
+  },
+  {
+    "id": "wasalt:5870331",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-with-3-bedrooms-5870331",
+    "title": "Apartment with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Nuzha",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 460000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 103.17,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Un-Furnished Family Apartment for Sale in Al Nuzha, Jeddah\nBuilt up Area: 103 SQM\nProperty Floor : 1\nApartment is located on 1 street, East with 12 m width\nThe property has 3 bedrooms, 3 bathrooms, 1 living room\nApartment has electricity and water Connections\nBuilding year: 2026\nApartment is: Un-Furnished\nProperty amenities:\n- School\n- Mosque\n- Health Centre\n- Retail Outlet\n- Maids Room\n- Terrace\n- Indoor Parking\n- 2 Separate Entrances\n- Underground Parking\nProperty fixtures:\n- Ceramic Flooring\n- Gypsum Board Decoration\n- Split AC\n- Smart Home System\n- Elevator\n- CCTV System\nPrice: 460000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: East\nElectricity: Yes\nWater: Yes\nProperty Floor: 1\nFurniture: Un-Furnished\nNumber of Parkings: 1\nFurnishing: Un-Furnished"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:09:05.031Z"
+  },
+  {
+    "id": "wasalt:5868401",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/floor-205-sqm-with-3-bedrooms-5868401",
+    "title": "Floor 205 SQM with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Ar-Rimal",
+    "propertyType": "Floor",
+    "purpose": "sale",
+    "price": 1300000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 205,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Floor for Sale in Ar-Rimal, Riyadh\nBuilt up Area: 205 SQM\nProperty Floor : Upper\nThe property has 3 bedrooms\nFloor has electricity and water Connections\nBuilding year: 2026\nPrice: 1300000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:09:06.921Z"
+  },
+  {
+    "id": "wasalt:5878279",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/villa-250-sqm-facing-south-on-15m-width-street-5878279",
+    "title": "Villa 250 SQM Facing South on 15m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "An-Narjis",
+    "propertyType": "Villa",
+    "purpose": "sale",
+    "price": 3000000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 5,
+    "bedroomsMax": 5,
+    "areaSqm": 250,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Villa for Sale in An-Narjis, Riyadh\nLand Area: 250 SQM\nVilla is located on 1 street, South with 15 m width\nThe property has 5 bedrooms\nVilla has electricity and water Connections\nBuilding year: 2026\nPrice: 3000000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: South\nStreet width: 15 m\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:09:08.854Z"
+  },
+  {
+    "id": "wasalt:5876403",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-17123-sqm-with-5-bedrooms-5876403",
+    "title": "Apartment 171.23 SQM with 5 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Aldammam",
+    "district": "King Fahad Dist",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 600000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 5,
+    "bedroomsMax": 5,
+    "areaSqm": 171.23,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "🟥للبيع للبيع للبيع\n📍حي الضاحيه الدمام ( التاسع ).\nخلف المستشفى الالماني والعثيم بارك\nموقع مميز وسهل للخروج والدخول للحي\nشقق على شارعين وشارع 32 م\nالحي مكتمل الخدمات والمدارس والمساجد قريبه\n🏠شقق تمليك ارضي و دور أول وملحق باسطح خاصه.\n🔹المساحة 171 م .\n♦️تم البناء تحت اشراف مكتب هندسي.\n♦️بناء حسب مواصفات الكود السعودي.\n♦️تأمينك ضد العيوب الخفيه.\n♦️ضمانات على الخزانات الارضيه والعلويه.\n♦️ضمانات على الكهرباء والسباكه والعزل.\n♦️ضمان على الهيكل الانشائي.\n◻️تفاصيل الشقق والاسعار .\n🔹الشقه الارضيه :\nحوش وكراج وحوش جانبي + مجلس رجال بخدماته دورة مياه ومغاسل + مقلط+ صاله كبيره بخدماته دورة مياه ومغاسل + مطبخ+ ثلاث غرف نوم واحدة ماستر روم.\n💵السعر 700 .\n🔹الشقه الدور الاول:\nمدخلين مجلس رجال بخدماته + ومقلط + صالة كبيره + مطبخ + وثلاث غرف نوم واحده ماستر روم .\n💵السعر 600 .\n🔹الملحق :\nمجلس رجال بخدماته + مقلط + صاله كبيره + مطبخ + اربع غرف نوم واحده ماستر روم + سطح كبير خاص بالملحق .\n💵السعر 700 ."
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nOther obligations on the property: لايوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:09:10.789Z"
+  },
+  {
+    "id": "wasalt:5868736",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/villa-341-sqm-facing-north-on-25m-width-street-5868736",
+    "title": "Villa 341 SQM Facing North on 25m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Samtah - Alqafl",
+    "district": "Alqafl",
+    "propertyType": "Villa",
+    "purpose": "sale",
+    "price": 950000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 5,
+    "bedroomsMax": 5,
+    "areaSqm": 341.8,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "فيلا سكنية للبيع في حي القفل٬ صامطة - القفل\nمساحة الأرض 341 متر مربع\nيحدها 1 شارع: شمالية٬\nبعرض 25 م\nمكونة من: 5 غرف\nواصل كهرباء\nواصل مياه\nسنة البناء: 2026\nسعرها 950000 ر.س\nالفلل صامطه مخطط الطالبي\n*فلل منفصله شارع ٢٥ متر*\nللبيع في صامطه مخطط الطالبي\n🛑تتكون من دورين مع حوش كل فيلا بصك مستقل تشطيب فاخر استغلال للمساحات في التخطيط\n🛑الدور الارضي :\nمجلس رجال مع دورة مياه مقلط، صاله ،مطبخ مع مستودع وغرفة غسيل وخادمه مجلس نساء مع دورة مياه\n🛑الدور الاول:\nاربع غرف نوم ثلاثه حمامات مطبخ خدمه (بوفيه) صاله كبيره\n*تشطيب بجوده عاليه وديكورات حديثه داخليه وخارجيه مساحة الارض 300 م٢ مساحة المباني ٣٤٠ م٢ خصوصيه تامه لكل فيلا\n🛑السعر ٩٥٠ الف\nالحوش بمساحة ١٠٠ م٢\n🛑 كل العمل موثق ويوجد تأمين عشر سنوات وكل الضمانات متوفره."
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: North\nStreet width: 25 m\nOther obligations on the property: لا يوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:09:12.653Z"
+  },
+  {
+    "id": "wasalt:5871757",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-with-3-bedrooms-5871757",
+    "title": "Apartment with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Jamea|Ah",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 320000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 1260,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al Jamea|Ah, Jeddah\nBuilt up Area: 1260 SQM\nProperty Floor : 2\nThe property has 5 floors, 3 bedrooms, 3 bathrooms, 1 living room, 1 guest room\nApartment has electricity and water Connections\nBuilding year: 2026\nProperty amenities:\n- Park\n- School\n- Mosque\n- Health Centre\n- Retail Outlet\n- Garden\n- Indoor Parking\n- 2 Separate Entrances\nProperty fixtures:\n- Ceramic Flooring\n- Split AC\n- Smart Home System\n- Elevator\n- CCTV System\nPrice: 320000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: <1 year\nFacade: 3 Streets\nOther obligations on the property: لا يوجد \nElectricity: Yes\nWater: Yes\nTotal Floors: 5\nProperty Floor: 2\nNumber of Parkings: 1"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:09:14.592Z"
+  },
+  {
+    "id": "wasalt:5854330",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/villa-472-sqm-facing-east-on-20m-width-street-5854330",
+    "title": "Villa 472 SQM Facing East on 20m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Mahdiyah",
+    "propertyType": "Villa",
+    "purpose": "sale",
+    "price": 2450000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 472,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Villa for Sale in Al-Mahdiyah, Riyadh\nLand Area: 472 SQM\nVilla is located on 1 street, East with 20 m width\nThe property has 3 bedrooms\nVilla has electricity and water Connections\nBuilding year: 2026\nPrice: 2450000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: East\nStreet width: 20 m\nOther obligations on the property: لا يوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:09:16.461Z"
+  },
+  {
+    "id": "wasalt:5855752",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/building-400-sqm-facing-south-5855752",
+    "title": "Building 400 SQM Facing South",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Arid",
+    "propertyType": "Building",
+    "purpose": "sale",
+    "price": 6800000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": null,
+    "bedroomsMax": null,
+    "areaSqm": 400,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Building for Sale in Al-Arid, Riyadh\nBuilding is located on 1 street, South with 30 m width\nBuilding has electricity and water Connections\nBuilding year: 2026\nPrice: 6800000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: 1 year\nFacade: South\nStreet width: 30 m\nOther obligations on the property: .\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:09:18.308Z"
+  },
+  {
+    "id": "wasalt:5860499",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-115-sqm-with-2-bedrooms-5860499",
+    "title": "Apartment 115 SQM with 2 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Ar-Rahmaniyah",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 2800000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 2,
+    "bedroomsMax": 2,
+    "areaSqm": 115,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Ar-Rahmaniyah, Riyadh\nBuilt up Area: 115 SQM\nThe property has 2 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 2800000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nOther obligations on the property: لايوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:09:20.214Z"
+  },
+  {
+    "id": "wasalt:5859084",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-600-sqm-with-3-bedrooms-5859084",
+    "title": "Apartment 600 SQM with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Rayaan",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 295000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 600,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al Rayaan, Jeddah\nBuilt up Area: 600 SQM\nApartment is located on 1 street\nThe property has 3 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 295000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: <1 year\nFacade: South\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:09:22.099Z"
+  },
+  {
+    "id": "wasalt:5862076",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/land-518-sqm-5862076",
+    "title": "Land 518 SQM",
+    "country": "Saudi Arabia",
+    "city": "Abha",
+    "district": "Al Taawun",
+    "propertyType": "Land",
+    "purpose": "sale",
+    "price": 560336,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": null,
+    "bedroomsMax": null,
+    "areaSqm": 518,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "💢فرصة عقاريه - موقع مميز 💢\nللبيع قطعة ارض سكنية بـ ابها مخطط التعاون الواقعه في المعتق على واجهتين مساحتها ٥١٨,٨٢ م واطوالها كالتالي:\nالشمال قطعة ارض بطول ٢٧,٢٧ م\nالجنوب قطعة ارض بطول ٢٩,٧٤ م\nالشرق شارع عرض 15 م بطول ١٨,٢٠ م\nالغرب شارع عرض 15 م بطول ١٨,٣٧ م\n📞لتواصل والاستفسار 0561355000\n▪ رقم المعلن (1100004197)\n▪ رقم العقد (6100322524)\n▪ رقم الترخيص(7100274077)"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nOther obligations on the property: لايوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:09:23.985Z"
+  },
+  {
+    "id": "wasalt:5853953",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/villa-300-sqm-facing-south-on-20m-width-street-5853953",
+    "title": "Villa 300 SQM Facing South on 20m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Mahdiyah",
+    "propertyType": "Villa",
+    "purpose": "sale",
+    "price": 2500000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 5,
+    "bedroomsMax": 5,
+    "areaSqm": 300,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "فيلا فاخرة للبيع – الرياض | حي المهدية\nللبيع فيلا راقية بتصميم عصري وتشطيب فاخر، تقع في أحد أرقى مواقع حي المهدية، وتجمع بين الفخامة والراحة وتلبية متطلبات السكن العصري.\n🔹 مواصفات الفيلا:\n• 5 غرف نوم\n• مجلس واسع\n• صالة طعام راقية\n• 7 دورات مياه\n• غرفة عاملة مع دورة المياه\n• تشطيب فاخر بجودة عالية\n• الفيلا جديدة تماماً ولم تُسكن\n🔹 الضمانات:\n• ضمانات كاملة على السباكة\n• ضمانات على الكهرباء\n• ضمانات على العزل\n• بناء بإشراف هندسي وجودة عالية\n🔹 مميزات إضافية:\n• توزيع داخلي مميز يحقق الخصوصية\n• إضاءة طبيعية ممتازة\n• موقع قريب من جميع الخدمات والطرق الرئيسية\n• تصميم حديث يواكب معايير الفلل الفاخرة\nفرصة مميزة للراغبين بالسكن الراقي في واحد من أفضل أحياء شمال غرب الرياض\nسعرها 2500000 ر.س"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: South\nStreet width: 20 m\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:09:25.847Z"
+  },
+  {
+    "id": "wasalt:5847418",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-with-4-bedrooms-5847418",
+    "title": "Apartment with 4 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Ad-Dar Al- Baida",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 617000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 4,
+    "bedroomsMax": 4,
+    "areaSqm": 192,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Ad-Dar Al- Baida, Riyadh\nThe property has 4 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2024\nPrice: 617000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: 2 years\nFacade: 3 Streets\nOther obligations on the property: نعم\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:09:47.601Z"
+  },
+  {
+    "id": "wasalt:5852658",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-166-sqm-with-3-bedrooms-5852658",
+    "title": "Apartment 166 SQM with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Mahdiyah",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 900000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 166,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al-Mahdiyah, Riyadh\nBuilt up Area: 166 SQM\nApartment is located on 1 street\nThe property has 3 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 900000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: North\nOther obligations on the property: لا يوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:09:53.802Z"
+  },
+  {
+    "id": "wasalt:5846814",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-137-sqm-with-4-bedrooms-5846814",
+    "title": "Apartment 137 SQM with 4 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Makkah Al Mukarramah",
+    "district": "Bathaakorish",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 800000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 4,
+    "bedroomsMax": 4,
+    "areaSqm": 137,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Un-Furnished\nApartment for Sale in Bathaakorish, Makkah Al Mukarramah\nApartment is located on 1 street\nThe property has 4 bedrooms, 3 bathrooms, 1 living room, 1 guest room\nApartment has electricity and water Connections\nBuilding year: 2026\nApartment is: Un-Furnished\nProperty amenities:\n- School\n- Mosque\n- Health Centre\n- Retail Outlet\n- Rooftop\n- Indoor Parking\n- 2 Separate Entrances\n- Laundry Room\nProperty fixtures:\n- Split AC\n- Smart Home System\n- Elevator\nPrice: 800000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: East\nOther obligations on the property: لا يوجد\nElectricity: Yes\nWater: Yes\nFurniture: Un-Furnished\nFurnishing: Un-Furnished"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:09:57.448Z"
+  },
+  {
+    "id": "wasalt:5845351",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-with-3-bedrooms-5845351",
+    "title": "Apartment with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Mahdiyah",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 800000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 106,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al-Mahdiyah, Riyadh\nApartment is located on 1 street\nThe property has 3 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 800000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: North\nOther obligations on the property: لا يوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:10:14.530Z"
+  },
+  {
+    "id": "wasalt:5841570",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-with-3-bedrooms-5841570",
+    "title": "Apartment with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Mahdiyah",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 750000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 125,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al-Mahdiyah, Riyadh\nThe property has 3 bedrooms\nApartment has electricity Connections\nBuilding year: 2026\nPrice: 750000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لا\nElectricity: Yes\nWater: No"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:10:19.073Z"
+  },
+  {
+    "id": "wasalt:5845610",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/villa-472-sqm-facing-east-on-20m-width-street-5845610",
+    "title": "Villa 472 SQM Facing East on 20m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Mahdiyah",
+    "propertyType": "Villa",
+    "purpose": "sale",
+    "price": 2000000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 472,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Villa for Sale in Al-Mahdiyah, Riyadh\nLand Area: 472 SQM\nVilla is located on 1 street, East with 20 m width\nThe property has 3 bedrooms\nVilla has electricity and water Connections\nBuilding year: 2026\nPrice: 2000000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: East\nStreet width: 20 m\nOther obligations on the property: لا يوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:10:22.689Z"
+  },
+  {
+    "id": "wasalt:5867051",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/villa-450-sqm-facing-north-on-20m-width-street-5867051",
+    "title": "Villa 450 SQM Facing North on 20m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Mahdiyah",
+    "propertyType": "Villa",
+    "purpose": "sale",
+    "price": 3600000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 5,
+    "bedroomsMax": 5,
+    "areaSqm": 450,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Villa for Sale in Al-Mahdiyah, Riyadh\nLand Area: 450 SQM\nVilla is located on 1 street, North with 20 m width\nThe property has 5 bedrooms\nVilla has electricity and water Connections\nBuilding year: 2026\nPrice: 3600000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: North\nStreet width: 20 m\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:12:06.998Z"
+  },
+  {
+    "id": "wasalt:5865175",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/villa-472-sqm-facing-south-on-20m-width-street-5865175",
+    "title": "Villa 472 SQM Facing South on 20m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Mahdiyah",
+    "propertyType": "Villa",
+    "purpose": "sale",
+    "price": 2000000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 5,
+    "bedroomsMax": 5,
+    "areaSqm": 472,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Villa for Sale in Al-Mahdiyah, Riyadh\nLand Area: 472 SQM\nVilla is located on 1 street, South with 20 m width\nThe property has 5 bedrooms\nVilla has electricity and water Connections\nBuilding year: 2026\nPrice: 2000000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: South\nStreet width: 20 m\nOther obligations on the property: لا يوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:12:08.853Z"
+  },
+  {
+    "id": "wasalt:5892007",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-16181-sqm-with-3-bedrooms-5892007",
+    "title": "Apartment 161.81 SQM with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "As-Suwaidi Al-Gharbi",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 785000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 161.81,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "دور اول للبيع في حي السويدي الغربي٬ الرياض\nمسطحات البناء 161.81 متر مربع\n¬النوع | ادوار مجزئة\n¬المساحات | ٣٠٠م\n¬الأسعار |\nالزاوية:\n- الاول: ٧٨٥ ألف\nعلى شارع\n- الاول: ٧٨٥ ألف\n\"مصاعد راكبة\"\n¬الواجهة | شرقية جنوبية\n¬الشارع | ٢٠*١٥م\n¬الحي | السويدي الغربي\nتفاصيل العقار/\n- الارضي: مدخل سيارة مجلس بدورة مياه مقلط وصالة مفتوحة على بعض مطبخ ٣ غرف نوم (١ ماستر) دورة مياه وارتداد خلفي\n- الاول: موقف سيارة مجلس بدورة مياه صالة واسعة مطبخ و٣ غرف نوم (١ ماستر) ودورة مياه وارتداد جانبي تفتح على الصالة \"مصعد راكب\"\n- الشقة: موقف سيارة صالة واسعة مطبخ و٣ غرف نوم (١ ماستر) ودورتين مياه وسطح ممكن تبني فيه مجلس \"مصعد راكب\"\nواصل كهرباء\nواصل مياه\nسنة البناء: 2026\nسعرها 785000 ر.س"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: South East\nOther obligations on the property: لا توجد \nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:12:10.815Z"
+  },
+  {
+    "id": "wasalt:5892218",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-625-sqm-with-3-bedrooms-5892218",
+    "title": "Apartment 625 SQM with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Faysaleyyah",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 399000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 625,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "شقة للبيع في حي الفيصلية٬ جدة\nمسطحات البناء 625 متر مربع\nشقه مكونة من: 3 غرف بمساحه 103م. السعر 399.الف.\nواصل كهرباء\nواصل مياه\nسنة البناء: 2026\nسعرها 399000 ر.س"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: <1 year\nFacade: 3 Streets\nOther obligations on the property: لا يوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:12:12.573Z"
+  },
+  {
+    "id": "wasalt:5892573",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/land-425-sqm-facing-south-on-15m-width-street-5892573",
+    "title": "Land 425 SQM Facing South on 15m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Bariduh",
+    "district": "Al Liwan",
+    "propertyType": "Land",
+    "purpose": "sale",
+    "price": 212500,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": null,
+    "bedroomsMax": null,
+    "areaSqm": 425,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Land for Sale in Al Liwan, Bariduh\nLand Area: 425 SQM\nProperty Borders: Length: 17 m, Depth: 25 m\nLand is located on 1 street, South with 15 m width\nPrice: 220000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nFacade: South\nStreet width: 15 m\nElectricity: No\nWater: No"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:12:14.468Z"
+  },
+  {
+    "id": "wasalt:5886313",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/villa-270-sqm-facing-north-on-15m-width-street-5886313",
+    "title": "Villa 270 SQM Facing North on 15m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al Marjan",
+    "propertyType": "Villa",
+    "purpose": "sale",
+    "price": 1500000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 5,
+    "bedroomsMax": 5,
+    "areaSqm": 270,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Villa for Sale in Al Marjan, Riyadh\nLand Area: 270 SQM\nVilla is located on 1 street, North with 15 m width\nThe property has 5 bedrooms\nVilla has electricity and water Connections\nBuilding year: 2026\nPrice: 1500000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: North\nStreet width: 15 m\nOther obligations on the property: لايوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:12:16.401Z"
+  },
+  {
+    "id": "wasalt:5890259",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-750-sqm-with-4-bedrooms-5890259",
+    "title": "Apartment 750 SQM with 4 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Safa",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 599000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 4,
+    "bedroomsMax": 4,
+    "areaSqm": 750,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al Safa, Jeddah\nBuilt up Area: 750 SQM\nThe property has 4 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 599000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: <1 year\nFacade: 3 Streets\nOther obligations on the property: لا يوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:13:11.915Z"
+  },
+  {
+    "id": "wasalt:5890202",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-600-sqm-with-4-bedrooms-5890202",
+    "title": "Apartment 600 SQM with 4 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Rayaan",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 390000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 4,
+    "bedroomsMax": 4,
+    "areaSqm": 600,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "شقة للبيع في حي الريان٬ جدة\nمسطحات البناء 600 متر مربع\nمكونة من: 4 غرف\nواصل كهرباء\nواصل مياه\nسنة البناء: 2026\nسعرها 390000 ر.س\n*شقة للبيع في جدة - حي الريان 🌆*\n*نموذج B - أمامية شارعين*\n*تفاصيل الشقة*\n- 3 غرف نوم\n- مجلس ضيوف + مجلس رجال\n- صالة معيشة واسعة\n- مطبخ\n- 3 دورات مياه\n- مدخلين منفصلين\n*مميزات الشقة\n✅ واجهات بانورامية\n✅ مصعدين\n✅ موقف خاص\n✅ دخول ذكي\n✅ عداد كهرباء مستقل\n✅ كاميرات مراقبة 24 ساعة\n*الضمانات*\n🛡️ *20 سنة* ضمان هيكل إنشائي + القواطع والافياش\n🛡️ *5 سنوات* ضمان السباكة والكهرباء\n🛡️ *سنة* اتحاد ملاك\n*موقع استراتيجي*\n📍 بالقرب من حديقة الريان\n📍 بالقرب من مسجد الأمير فهد\n📍 على شارع أبو عمر بن أنس\n📍 بالقرب من ملعب الأسطورة\n📍 جميع الخدمات حولك\n📍 في أرقى أحياء جدة\n*شقة عملية بتصميم مريح ومساحة ممتازة للعائلة*\nفرصة ممتازة مقارنة بالمميزات والموقع"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لايوجد \nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:14:14.336Z"
+  },
+  {
+    "id": "wasalt:5890854",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/land-620-sqm-facing-west-on-32m-width-street-5890854",
+    "title": "Land 620 SQM Facing West on 32m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al-Furqan",
+    "propertyType": "Land",
+    "purpose": "sale",
+    "price": 1800000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": null,
+    "bedroomsMax": null,
+    "areaSqm": 620,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "💎الأصول الشاملة العقارية💎\nخبراء التسويق والوساطة العقارية\n✨فرصة لا تعوض✨\nتملك الآن قبل ارتفاع الأسعار\n🏞️ أرض مميزة للبيع في جوهرة العروس\n📍 ضمن مخطط الفرقان – أحد أفضل المخططات السكنية\n✨ مميزات العقار:\n▪️ مساحة مثالية (620 م²)\n▪️ واجهة غربية\n▪️ شارع واسع 32 متر\n▪️ موقع مناسب لبناء فيلا فاخرة أو مشروع استثماري\n💰 سعر منافس: 1,800,000 ريال\n🔸 قابل للتفاوض\n💥للتواصل والاستفسار:-\n🎫 رخصة فال (1200018314)\n☎️ تركي مدني (0545046666)\n☎️محمد مزيبلي (0536822099)"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nFacade: West\nStreet width: 32 m\nOther obligations on the property: لا \nElectricity: Yes\nWater: No"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:15:21.615Z"
+  },
+  {
+    "id": "wasalt:5889628",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/land-953-sqm-facing-south-west-on-20m-width-street-5889628",
+    "title": "Land 953 SQM Facing South West on 20m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Madinah",
+    "district": "Al Arid",
+    "propertyType": "Land",
+    "purpose": "sale",
+    "price": 5050900,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": null,
+    "bedroomsMax": null,
+    "areaSqm": 953,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "بسم الله وبه نستعين\nيمتنع الوسطاء العرض للمشتري فقط\nللبيع قطعتين متلاصقه المساحه الاجماليه ١٣٥١م\nعلى شارعين ٢٠م و ١٢م تجاري سكني\n٢٦ /١١/ ت رقم المخطط\nقطعه رقم ١٢٤٢\nمطلوب ٥٣٠٠ ريال للمتر صافي\nhttps://maps.app.goo.gl/cTatE1WiYA3oTBzP6?g_st=awb"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nFacade: South West\nStreet width: 20 m\nOther obligations on the property: ن\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:15:23.481Z"
+  },
+  {
+    "id": "wasalt:5888694",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/villa-450-sqm-facing-south-on-15m-width-street-5888694",
+    "title": "Villa 450 SQM Facing South on 15m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Mahdiyah",
+    "propertyType": "Villa",
+    "purpose": "sale",
+    "price": 4500000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 6,
+    "bedroomsMax": 6,
+    "areaSqm": 450,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Villa for Sale in Al-Mahdiyah, Riyadh\nLand Area: 450 SQM\nVilla is located on 1 street, South with 15 m width\nThe property has 6 bedrooms\nVilla has electricity and water Connections\nBuilding year: 2026\nPrice: 4500000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: South\nStreet width: 15 m\nOther obligations on the property: لايوجد \nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:15:25.230Z"
+  },
+  {
+    "id": "wasalt:5894294",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-104516-sqm-with-2-bedrooms-5894294",
+    "title": "Apartment 1045.16 SQM with 2 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Obhur Al Janoubeyyah",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 420000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 2,
+    "bedroomsMax": 2,
+    "areaSqm": 1045.16,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Obhur Al Janoubeyyah, Jeddah\nBuilt up Area: 1045.16 SQM\nThe property has 2 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 420000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: <1 year\nFacade: 3 Streets\nOther obligations on the property: لايوجد \nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:15:26.975Z"
+  },
+  {
+    "id": "wasalt:5884099",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-with-4-bedrooms-5884099",
+    "title": "Apartment with 4 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Nahdah",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 950000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 4,
+    "bedroomsMax": 4,
+    "areaSqm": 135,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "افراغ فوري يقبل جميع البنوك واصحاب الدعم السكني\nشقة للبيع في حي النهضة٬ جدة\nمسطحات البناء 135.48 متر مربع\nمكونة من: 4 غرف\nواصل كهرباء\nواصل مياه\nسنة البناء: 2026\nسعرها 950000 ر.س"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لا يوجد \nElectricity: Yes\nWater: Yes\nTotal Floors: 5\nProperty Floor: 1\nFurniture: Un-Furnished\nFurnishing: Un-Furnished"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:16:29.717Z"
+  },
+  {
+    "id": "wasalt:5886655",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/villa-20162-sqm-facing-east-on-20m-width-street-5886655",
+    "title": "Villa 201.62 SQM Facing East on 20m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Ad-Duraihemiyah",
+    "propertyType": "Villa",
+    "purpose": "sale",
+    "price": 950000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 4,
+    "bedroomsMax": 4,
+    "areaSqm": 201.62,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Villa for Sale in Ad-Duraihemiyah, Riyadh\nLand Area: 201.62 SQM\nVilla is located on 1 street, East with 20 m width\nThe property has 4 bedrooms\nVilla has electricity and water Connections\nBuilding year: 2026\nPrice: 950000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: East\nStreet width: 20 m\nOther obligations on the property: لا يوجد \nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:16:31.759Z"
+  },
+  {
+    "id": "wasalt:5883758",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-9286-sqm-with-3-bedrooms-5883758",
+    "title": "Apartment 92.86 SQM with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Muanisiyah",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 813753,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 92.86,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al-Muanisiyah, Riyadh\nBuilt up Area: 92.86 SQM\nThe property has 3 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 813753 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:17:48.127Z"
+  },
+  {
+    "id": "wasalt:5893354",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/villa-200-sqm-facing-west-on-12m-width-street-5893354",
+    "title": "Villa 200 SQM Facing West on 12m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Malqa",
+    "propertyType": "Villa",
+    "purpose": "sale",
+    "price": 3900000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 5,
+    "bedroomsMax": 5,
+    "areaSqm": 200,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Villa for Sale in Al-Malqa, Riyadh\nLand Area: 200 SQM\nVilla is located on 1 street, West with 12 m width\nThe property has 5 bedrooms\nVilla has electricity Connections\nBuilding year: 2026\nPrice: 3900000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: West\nStreet width: 12 m\nOther obligations on the property: لايوجد \nElectricity: Yes\nWater: No"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:18:24.059Z"
+  },
+  {
+    "id": "wasalt:5883855",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/building-5625-sqm-facing-west-5883855",
+    "title": "Building 562.5 SQM Facing West",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Faysaleyyah",
+    "propertyType": "Building",
+    "purpose": "sale",
+    "price": 3850000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": null,
+    "bedroomsMax": null,
+    "areaSqm": 562.5,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "\"رقم العرض : GD 8069\nنوع العقار: عمارة للبيع\nالموقع : حي الفيصلية\nالمساحة : 562.5 م\nالمواصفات :\nموقع مميز\nللبيع عماره لقطة\nفي الفيصلية 2\nثلاثه أدوار و ملحقين\nالواجهة غربية نافد من شارع المعهد الصناعي الى شارع سعود الفيصل وشارع الستين\n8 شقق 4 من 5غرف - 4 شقق من غرفتين\nوملحقين من غرفه\nمع إمكانية تركيب مصعد من الدرج\nالدخل السنوي : 219.000\nرقم الترخيص : 7201040539\nالمطلوب : 3,850,000\nالموقع :\nhttps://maps.app.goo.gl/BWKjHZZnVuxdXFnC7?g_st=iw"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: 10+ years\nFacade: West\nStreet width: 12 m\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:18:25.938Z"
+  },
+  {
+    "id": "wasalt:5887630",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-166635-sqm-with-2-bedrooms-5887630",
+    "title": "Apartment 1666.35 SQM with 2 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Faiha|A",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 295000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 2,
+    "bedroomsMax": 2,
+    "areaSqm": 1666.35,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al Faiha|A, Jeddah\nBuilt up Area: 1666.35 SQM\nThe property has 2 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 295000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: <1 year\nFacade: 3 Streets\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:18:27.829Z"
+  },
+  {
+    "id": "wasalt:5883412",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/floor-25894-sqm-with-4-bedrooms-5883412",
+    "title": "Floor 258.94 SQM with 4 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Qurtubah",
+    "propertyType": "Floor",
+    "purpose": "sale",
+    "price": 1650000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 4,
+    "bedroomsMax": 4,
+    "areaSqm": 258.94,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Floor for Sale in Qurtubah, Riyadh\nBuilt up Area: 258.94 SQM\nProperty Floor : Upper\nThe property has 4 bedrooms\nFloor has electricity and water Connections\nBuilding year: 2026\nPrice: 1650000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:18:29.729Z"
+  },
+  {
+    "id": "wasalt:5891221",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-9272-sqm-with-3-bedrooms-5891221",
+    "title": "Apartment 92.72 SQM with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Wahah",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 290000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 92.72,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "شقه تمليك خلفيه بحي الواحه كود 219\nرقم الشقه 1 مساحه 92 مكونه من 3 غرف ومطبخ و2 حمامات\n✅المطلوب 290.000\n✅ لايوجد شهادة أشغال الشراء فقط كاش أو بنوك بدون دعم\n✅ عداد كهرباء خاص وماء مشترك\n✅ دور ثاني بمصعد\n✅للوصول للموقع لابد من موعد"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: 10 years\nFacade: 3 Streets\nOther obligations on the property: لايوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:18:41.344Z"
+  },
+  {
+    "id": "wasalt:5899364",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-15888-sqm-with-3-bedrooms-5899364",
+    "title": "Apartment 1588.8 SQM with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Yaqoot",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 365002,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 1588.8,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al Yaqoot, Jeddah\nBuilt up Area: 1588.8 SQM\nThe property has 3 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 365002 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: <1 year\nOther obligations on the property: لايوجد \nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:19:37.787Z"
+  },
+  {
+    "id": "wasalt:5898791",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/land-441-sqm-facing-south-on-20m-width-street-5898791",
+    "title": "Land 441 SQM Facing South on 20m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Al Jubaylah",
+    "district": "Al Wadi District",
+    "propertyType": "Land",
+    "purpose": "sale",
+    "price": 930069,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": null,
+    "bedroomsMax": null,
+    "areaSqm": 441,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "فرصة سكنية واستثمارية واعدة في العيينة (سعر لقطة لسرعة البيع) 🌟\nتم تخفيض سعر الارض 👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻\nتبحث عن الهدوء لبناء منزل العمر؟ أو استثمار طويل الأجل في مناطق النمو المستقبلية؟ هذه الأرض هي خيارك المثالي.\n📍 الموقع: الرياض - الدرعية / العيينة (حي الوادي).\n.\n• تقع في حي سكني راقٍ وهادئ جداً.\n• نمو مستقبلي مرتقب: تبعد 30 دقيقة فقط عن مشروع \"المكعب\" الشهير.\n• تبعد 50 دقيقة عن قلب مدينة الرياض.\n💰 السعر المطلوب: 800,000 ريال فقط (صافي للمالك )"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nFacade: South\nStreet width: 20 m\nOther obligations on the property: لايوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:19:41.561Z"
+  },
+  {
+    "id": "wasalt:5895561",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-264507-sqm-with-3-bedrooms-5895561",
+    "title": "Apartment 2645.07 SQM with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al-Wisam",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 350000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 2645.07,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al-Wisam, Jeddah\nBuilt up Area: 2645.07 SQM\nThe property has 3 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 350000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:22:28.837Z"
+  },
+  {
+    "id": "wasalt:5899055",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-318328-sqm-with-2-bedrooms-5899055",
+    "title": "Apartment 3183.28 SQM with 2 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Yaqoot",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 299000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 2,
+    "bedroomsMax": 2,
+    "areaSqm": 3183.28,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al Yaqoot, Jeddah\nBuilt up Area: 3183.28 SQM\nApartment is located on 1 street\nThe property has 2 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 299000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: <1 year\nFacade: East\nOther obligations on the property: لايوجد \nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:22:32.516Z"
+  },
+  {
+    "id": "wasalt:5902755",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/floor-20795-sqm-with-5-bedrooms-5902755",
+    "title": "Floor 207.95 SQM with 5 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Twaeeq",
+    "propertyType": "Floor",
+    "purpose": "sale",
+    "price": 750000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 5,
+    "bedroomsMax": 5,
+    "areaSqm": 207.95,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "لا توجد"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لا توجد \nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:22:34.397Z"
+  },
+  {
+    "id": "wasalt:5902698",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/villa-12695-sqm-facing-west-on-15m-width-street-5902698",
+    "title": "Villa 1269.5 SQM Facing West on 15m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Jazan",
+    "district": "The Airport",
+    "propertyType": "Villa",
+    "purpose": "sale",
+    "price": 1800000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 8,
+    "bedroomsMax": 8,
+    "areaSqm": 1269.5,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "للبيع فيلا دورين في وسط مدينة جيزان\nمساحة الارض 1270 م2\nمساحة البناء 600 م2 تقريباً\nعمر الفيلا 15 سنة تقريبا\nالفيلا تتكون من دورين وملحق :\nالدور الارضي يتكون من :-\nمجلس رجال + مجلس نساء + صالة طعام + 2 صالة مفتوحة على بعض + مطبخ + بوفيه + 2 دورات مياه\nالدور الاول يتكون من :-\nصالة + 3 غرفة نوم + غرفه + غرفة عامله بدورة مياه + مطبخ + 3 دورات مياه\nالملحق :\nغرفة + 1 دورت مياه + مطبخ + دورت مياه ومكان للغسيل + مستودع + سطح .\nحوش كبير من الخلف والأمام + غرفة سائق بتوابعها حمام وجزء للمطبخ .\nللتواصل والاستفسار واتس اب\n920031858"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: West\nStreet width: 15 m\nOther obligations on the property: لا يوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:22:36.338Z"
+  },
+  {
+    "id": "wasalt:5902453",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-440-sqm-with-2-bedrooms-5902453",
+    "title": "Apartment 440 SQM with 2 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Rawdhah",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 449000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 2,
+    "bedroomsMax": 2,
+    "areaSqm": 440,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al Rawdhah, Jeddah\nBuilt up Area: 440 SQM\nThe property has 2 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 449000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: <1 year\nFacade: 3 Streets\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:22:38.244Z"
+  },
+  {
+    "id": "wasalt:5897163",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-18453-sqm-with-5-bedrooms-5897163",
+    "title": "Apartment 184.53 SQM with 5 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Madinah",
+    "district": "Al Shouran",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 740000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 5,
+    "bedroomsMax": 5,
+    "areaSqm": 184.53,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al Shouran, Madinah\nBuilt up Area: 184.53 SQM\nApartment is located on 1 street\nThe property has 5 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 740000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: South\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:22:40.135Z"
+  },
+  {
+    "id": "wasalt:5902314",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-85965-sqm-with-3-bedrooms-5902314",
+    "title": "Apartment 859.65 SQM with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Obhur Al Janoubeyyah",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 600000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 859.65,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Obhur Al Janoubeyyah, Jeddah\nBuilt up Area: 859.65 SQM\nThe property has 3 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 600000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: <1 year\nFacade: 3 Streets\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:22:42.085Z"
+  },
+  {
+    "id": "wasalt:5900379",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-with-3-bedrooms-5900379",
+    "title": "Apartment with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Nuzha",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 355000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 775,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "✨ شقة سكنية بتصميم عصري ومساحات عملية\n📐 المساحة: 108 م²\n💰 السعر: 355,000 ريال\n🔹 تفاصيل الشقة:\n🛏️ غرفتا نوم\n🛋️ مجلس\n🍳 مطبخ\n🚿 3 دورات مياه\n🚪 مدخلان\nتصميم عملي واستغلال ممتاز للمساحات\n⭐ مميزات المشروع:\nعوازل صوتية وحرارية\n🅿️ مواقف خاصة ومراقبة\nممرات وأسقف واسعة\n🛡️ ضمانات على الإنشاءات\nتشطيبات وتصميم بمعايير جودة واستدامة\n📞 للتواصل والاستفسار والحجز:\n355,000 ريال فقط —\nللاستفسار 0533702649"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: <1 year\nFacade: 3 Streets\nOther obligations on the property: لا يوجد \nElectricity: Yes\nWater: Yes\nTotal Floors: 5\nProperty Floor: 2\nFurniture: Un-Furnished\nNumber of Parkings: 1\nFurnishing: Un-Furnished"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:22:45.702Z"
+  },
+  {
+    "id": "wasalt:5904028",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-310-sqm-with-4-bedrooms-5904028",
+    "title": "Apartment 310 SQM with 4 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Yaqoot",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 409000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 4,
+    "bedroomsMax": 4,
+    "areaSqm": 310,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al Yaqoot, Jeddah\nBuilt up Area: 310 SQM\nThe property has 4 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 409000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:22:50.601Z"
+  },
+  {
+    "id": "wasalt:5903470",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/villa-42901-sqm-facing-south-on-15m-width-street-5903470",
+    "title": "Villa 429.01 SQM Facing South on 15m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Jazan",
+    "district": "Al Rafaya 2",
+    "propertyType": "Villa",
+    "purpose": "sale",
+    "price": 850000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 6,
+    "bedroomsMax": 6,
+    "areaSqm": 429.01,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "للبيع فلل دوبلكس بتصميم فاخر في جنوب مدينة جازان\nمساحة الفيلا : 320م\nالدور الارضي :\nمجلس رجال مع دورة مياه + صالة طعام + مجلس نساء +صاله + مطبخ مع مستودع + دورة مياه\nالدور الاول :\n2 غرفه ماستر مع دورة مياه + ٢ غرف + صالة + مطبخ خدمة + دورة مياه\nالدور الثاني :\nغرفة عاملة مع دورة مياه + غرفة غسيل + غرفة + سطح\nللتواصل والاستفسار واتس اب\n920031858"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: South\nStreet width: 15 m\nOther obligations on the property: لا يوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:22:54.912Z"
+  },
+  {
+    "id": "wasalt:5903981",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-7021-sqm-with-4-bedrooms-5903981",
+    "title": "Apartment 702.1 SQM with 4 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Marwah",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 460000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 4,
+    "bedroomsMax": 4,
+    "areaSqm": 702.1,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al Marwah, Jeddah\nBuilt up Area: 702.1 SQM\nThe property has 4 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 460000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: <1 year\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:22:58.461Z"
+  },
+  {
+    "id": "wasalt:5904224",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/land-3125-sqm-facing-east-on-20m-width-street-5904224",
+    "title": "Land 312.5 SQM Facing East on 20m Width Street",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "An-Nadheem",
+    "propertyType": "Land",
+    "purpose": "sale",
+    "price": 671875,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": null,
+    "bedroomsMax": null,
+    "areaSqm": 312.5,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Land for Sale in An-Nadheem, Riyadh\nLand Area: 312.5 SQM\nLand is located on 1 street, East with 20 m width\nLand has electricity and water Connections\nPrice: 671875 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nFacade: East\nStreet width: 20 m\nOther obligations on the property: لايوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:23:16.478Z"
+  },
+  {
+    "id": "wasalt:5899673",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-750-sqm-with-3-bedrooms-5899673",
+    "title": "Apartment 750 SQM with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Safa",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 415000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 750,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al Safa, Jeddah\nBuilt up Area: 750 SQM\nApartment is located on 1 street\nThe property has 3 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 415000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: <1 year\nFacade: East\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:23:20.187Z"
+  },
+  {
+    "id": "wasalt:5900093",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-with-5-bedrooms-5900093",
+    "title": "Apartment with 5 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Faiha|A",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 645000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 5,
+    "bedroomsMax": 5,
+    "areaSqm": 2416,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Un-Furnished\nApartment for Sale in Al Faiha|A, Jeddah\nBuilt up Area: 2416 SQM\nProperty Floor : 6\nApartment is located on 1 street\nThe property has 12 floors, 5 bedrooms, 4 bathrooms, 1 living room, 1 guest room\nApartment has electricity and water Connections\nBuilding year: 2026\nApartment is: Un-Furnished\nProperty amenities:\n- Park\n- School\n- Mosque\n- Health Centre\n- Retail Outlet\n- Terrace\n- Indoor Parking\n- 2 Separate Entrances\n- Walk-in Closet\nProperty fixtures:\n- Gypsum Board Decoration\n- Split AC\n- Smart Home System\n- Elevator\n- CCTV System\nPrice: 645000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: <1 year\nFacade: East\nOther obligations on the property: لا يوجد \nElectricity: Yes\nWater: Yes\nTotal Floors: 12\nProperty Floor: 6\nFurniture: Un-Furnished\nNumber of Parkings: 1\nFurnishing: Un-Furnished"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:23:23.617Z"
+  },
+  {
+    "id": "wasalt:5899899",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-625-sqm-with-4-bedrooms-5899899",
+    "title": "Apartment 625 SQM with 4 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Safa",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 470000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 4,
+    "bedroomsMax": 4,
+    "areaSqm": 625,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al Safa, Jeddah\nBuilt up Area: 625 SQM\nThe property has 4 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 470000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: <1 year\nFacade: 3 Streets\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:23:27.164Z"
+  },
+  {
+    "id": "wasalt:5897391",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-with-3-bedrooms-5897391",
+    "title": "Apartment with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Yaqoot",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 529000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 3183,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al Yaqoot, Jeddah\nBuilt up Area: 3183 SQM\nApartment is located on 1 street\nThe property has 3 bedrooms, 4 bathrooms, 1 living room, 3 guest rooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 529000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: <1 year\nFacade: East\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:23:39.065Z"
+  },
+  {
+    "id": "wasalt:5897720",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-600-sqm-with-3-bedrooms-5897720",
+    "title": "Apartment 600 SQM with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Safa",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 395001,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 600,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al Safa, Jeddah\nBuilt up Area: 600 SQM\nThe property has 3 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 395001 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: <1 year\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:23:42.640Z"
+  },
+  {
+    "id": "wasalt:5900842",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-2250-sqm-with-2-bedrooms-5900842",
+    "title": "Apartment 2250 SQM with 2 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Yaqoot",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 299000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 2,
+    "bedroomsMax": 2,
+    "areaSqm": 2250,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al Yaqoot, Jeddah\nBuilt up Area: 2250 SQM\nApartment is located on 1 street\nThe property has 2 bedrooms\nApartment has electricity Connections\nBuilding year: 2026\nPrice: 299000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: West\nOther obligations on the property: لا يوجد \nElectricity: Yes\nWater: No"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:23:46.832Z"
+  },
+  {
+    "id": "wasalt:5901283",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/sale/apartment-625-sqm-with-3-bedrooms-5901283",
+    "title": "Apartment 625 SQM with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Sulaymaneyyah",
+    "propertyType": "Apartment",
+    "purpose": "sale",
+    "price": 365000,
+    "currency": "SAR",
+    "pricePeriod": null,
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 625,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Sale in Al Sulaymaneyyah, Jeddah\nBuilt up Area: 625 SQM\nThe property has 3 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 365000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لا يوجد \nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:23:50.849Z"
+  },
+  {
+    "id": "wasalt:5879383",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/rent/apartment-11917-sqm-with-3-bedrooms-5879383",
+    "title": "Apartment 119.17 SQM with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Khobar",
+    "district": "Al Hammraa",
+    "propertyType": "Apartment",
+    "purpose": "rent",
+    "price": 38000,
+    "currency": "SAR",
+    "pricePeriod": "year",
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 119.17,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Rent in Al Hammraa, Khobar\nBuilt up Area: 119.17 SQM\nThe property has 3 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 38000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: 1 year\nFacade: 3 Streets\nOther obligations on the property: مرهون\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:28:38.286Z"
+  },
+  {
+    "id": "wasalt:5869789",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/rent/apartment-312-sqm-with-4-bedrooms-5869789",
+    "title": "Apartment 312 SQM with 4 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Arid",
+    "propertyType": "Apartment",
+    "purpose": "rent",
+    "price": 60000,
+    "currency": "SAR",
+    "pricePeriod": "سنة",
+    "bedroomsMin": 4,
+    "bedroomsMax": 4,
+    "areaSqm": 312,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "نوع العقار / دور علوي مكون من 4 غرف وصاله ومستودع + منطقه غسيل 3 دورات مياه وسطح خاص\nعنوان العقار / الرياض"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: 6 years\nFacade: East\nOther obligations on the property: لا يوجد \nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:30:00.775Z"
+  },
+  {
+    "id": "wasalt:5872448",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/rent/apartment-30-sqm-with-1-bedroom-5872448",
+    "title": "Apartment 30 SQM with 1 Bedroom",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Salamah",
+    "propertyType": "Apartment",
+    "purpose": "rent",
+    "price": 32400,
+    "currency": "SAR",
+    "pricePeriod": "year",
+    "bedroomsMin": 1,
+    "bedroomsMax": 1,
+    "areaSqm": 30,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Rent in Al Salamah, Jeddah\nBuilt up Area: 30 SQM\nThe property has 1 bedroom\nApartment has electricity and water Connections\nBuilding year: 2015\nPrice: 32400 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: 10+ years\nFacade: 3 Streets\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:30:07.705Z"
+  },
+  {
+    "id": "wasalt:5872382",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/rent/apartment-176-sqm-with-4-bedrooms-5872382",
+    "title": "Apartment 176 SQM with 4 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Dahrat Laban",
+    "propertyType": "Apartment",
+    "purpose": "rent",
+    "price": 60000,
+    "currency": "SAR",
+    "pricePeriod": "year",
+    "bedroomsMin": 4,
+    "bedroomsMax": 4,
+    "areaSqm": 176.38,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Rent in Dahrat Laban, Riyadh\nBuilt up Area: 176 SQM\nThe property has 4 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 60000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: 0\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:30:12.728Z"
+  },
+  {
+    "id": "wasalt:5884170",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/rent/furnished-floor-600-sqm-5884170",
+    "title": "Furnished Floor 600 SQM",
+    "country": "Saudi Arabia",
+    "city": "Daba'",
+    "district": "Al-Murooj",
+    "propertyType": "Floor",
+    "purpose": "rent",
+    "price": 90000,
+    "currency": "SAR",
+    "pricePeriod": "year",
+    "bedroomsMin": null,
+    "bedroomsMax": null,
+    "areaSqm": 600,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "دور كامل مؤثث للإيجار ، شقتين وفيلا مع مدخل سيارة وحوش الشقة الأولى مكونة من ٤ غرف ٤ حمامات، مطبخ، صالة ، غرفة غسيل، مكيفات ، مطبخ مؤثثة بالكامل الشقة الثانية مكونة من غرفتين بحمامين ومطبخ وصالة مؤثثة بالكامل الشقة الثالثة مكونة من غرفتين بحمامين ومطبخ وصالة مؤثثة كامل حوش مناسب للشركات مناسب للعزاب أو للعائلات الموقع ممتاز\nويوجد مبنى كامل مناسب للشركات والعمال ضباء عيانة شرق furnished floor for rent Includes 2 apartments and a villa, featuring a driveway and a courtyard. Apartment 1: 4 rooms, 4 bathrooms, kitchen, living area, laundry room fully furnished and equipped with air conditioning. Apartment 2: 2 rooms, 2 bathrooms, kitchen, and living area; fully furnished. Apartment 3 rooms, 2 bathrooms, kitchen, and living area; fully furnished. Outdoor courtyard. Suitable for companies. Suitable for singal or families. Excellent location. An entire building suitable for companies and workers is also available in Duba\n120000-200000 السعر لتفاوض حسب الاتفاق للوحدات المستأجرة"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: 1 year\nFacade: 3 Streets\nOther obligations on the property: لايوجد\nElectricity: Yes\nWater: Yes\nProperty Floor: Upper\nNumber of Parkings: 6\nFurnishing: Furnished"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:30:17.825Z"
+  },
+  {
+    "id": "wasalt:5856835",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/rent/apartment-100-sqm-with-1-bedroom-5856835",
+    "title": "Apartment 100 SQM with 1 Bedroom",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "An-Nafel",
+    "propertyType": "Apartment",
+    "purpose": "rent",
+    "price": 3000,
+    "currency": "SAR",
+    "pricePeriod": "year",
+    "bedroomsMin": 1,
+    "bedroomsMax": 1,
+    "areaSqm": 100,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Rent in An-Nafel, Riyadh\nBuilt up Area: 100 SQM\nThe property has 1 bedroom\nApartment has electricity and water Connections\nBuilding year: 2024\nPrice: 3000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: 2 years\nFacade: 3 Streets\nOther obligations on the property: لايوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:30:21.829Z"
+  },
+  {
+    "id": "wasalt:5862518",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/rent/villa-900-sqm-facing-north-with-7-bedrooms-5862518",
+    "title": "Villa 900 SQM Facing North with 7 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Sheraa",
+    "propertyType": "Villa",
+    "purpose": "rent",
+    "price": 100000,
+    "currency": "SAR",
+    "pricePeriod": "year",
+    "bedroomsMin": 7,
+    "bedroomsMax": 7,
+    "areaSqm": null,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "فيلا للإيجار بتصميم مودرن في حي الشراع ، تتميز بمساحات واسعة وتوزيع عملي يناسب العائلات الباحثة عن الراحة والفخامة.\n🏡 تفاصيل الفيلا:\nالفيلا بمساحة 200م دبلكس\n🔹 الدور الأرضي:\n🛋️ صالونين كبيرين للاستقبال\n🛋️ صالة معيشة واسعة\n🍽️ مطبخ أمريكي راكب بمساحة كبيرة\n🚻 حمام ضيوف\n🚿 حمام يخدم الصالة\n🔹 الدور الأول:\n🛏️ 3 غرف نوم\n👑 غرفة ماستر مع مساحة لغرفة ملابس\n🚿 حمام خاص للماستر\n🍽️ مطبخ سيرفس\n🔹 الدور الثاني:\n🧹 غرفة خادمة\n🌅 سطح واسع متعدد الاستخدام\n✨ المميزات:\n✔ تصميم مودرن عصري\n✔ مساحات واسعة ومريحة\n✔ توزيع عملي مناسب للعائلات\n✔ موقع هادئ وقريب من الخدمات\nخيار مثالي للسكن العائلي في شمال جدة يجمع بين الراحة والفخامة."
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: North\nStreet width: 16 m\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:30:25.256Z"
+  },
+  {
+    "id": "wasalt:5854066",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/rent/apartment-80-sqm-with-1-bedroom-5854066",
+    "title": "Apartment 80 SQM with 1 Bedroom",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Aqeek",
+    "propertyType": "Apartment",
+    "purpose": "rent",
+    "price": 43000,
+    "currency": "SAR",
+    "pricePeriod": "year",
+    "bedroomsMin": 1,
+    "bedroomsMax": 1,
+    "areaSqm": 80,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Rent in Al-Aqeek, Riyadh\nBuilt up Area: 80 SQM\nThe property has 1 bedroom\nApartment has electricity and water Connections\nBuilding year: 2022\nPrice: 43000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: 4 years\nFacade: 3 Streets\nOther obligations on the property: لايوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:30:29.607Z"
+  },
+  {
+    "id": "wasalt:5880459",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/rent/apartment-16355-sqm-with-5-bedrooms-5880459",
+    "title": "Apartment 163.55 SQM with 5 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Faiha|A",
+    "propertyType": "Apartment",
+    "purpose": "rent",
+    "price": 45000,
+    "currency": "SAR",
+    "pricePeriod": "year",
+    "bedroomsMin": 5,
+    "bedroomsMax": 5,
+    "areaSqm": 163.55,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Rent in Al Faiha|A, Jeddah\nBuilt up Area: 163.55 SQM\nApartment is located on 1 street\nThe property has 5 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 45000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: South\nOther obligations on the property: لايوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:31:58.000Z"
+  },
+  {
+    "id": "wasalt:5879801",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/rent/apartment-130-sqm-with-4-bedrooms-5879801",
+    "title": "Apartment 130 SQM with 4 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Maseef",
+    "propertyType": "Apartment",
+    "purpose": "rent",
+    "price": 50000,
+    "currency": "SAR",
+    "pricePeriod": "year",
+    "bedroomsMin": 4,
+    "bedroomsMax": 4,
+    "areaSqm": 130,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Rent in Al-Maseef, Riyadh\nBuilt up Area: 130 SQM\nThe property has 4 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2020\nPrice: 50000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: 6 years\nFacade: 3 Streets\nOther obligations on the property: .\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:31:59.899Z"
+  },
+  {
+    "id": "wasalt:5847032",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/rent/apartment-with-4-bedrooms-5847032",
+    "title": "Apartment with 4 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al-Manarat",
+    "propertyType": "Apartment",
+    "purpose": "rent",
+    "price": 33000,
+    "currency": "SAR",
+    "pricePeriod": "year",
+    "bedroomsMin": 4,
+    "bedroomsMax": 4,
+    "areaSqm": 694,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "✨ شقة فاخرة للإيجار – مستوى راقٍ وخصوصية نادرة ✨\nإذا كنت تبحث عن السكن الذي يعكس ذوقك الرفيع… هذه الشقة خُلقت لك.\nتفاصيل الشقة:\n• مدخلين مستقلين لخصوصية كاملة\n• 4 غرف واسعة بإضاءة ممتازة\n• صالة أنيقة بمساحة مريحة\n• غرفة شغالة مستقلة\n• مطبخ عملي\n• 4 حمامات بتشطيب راقٍ\nمميزات لا تُعوّض:\n• أرضيات رخام فاخرة تغطي كامل الشقة\n• غاز مركزي\n• شقة واحدة فقط في كل دور (خصوصية تامة وهدوء)\n• تصميم عصري وتشطيب عالي الجودة\n💰 السعر: 34 الف قابل للتفاوض\n📞 للتواصل:\n0548947465\n0560596031\n🏡 سكن فاخر يليق بك… التفاصيل تصنع الفرق"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: West\nOther obligations on the property: .\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:32:01.868Z"
+  },
+  {
+    "id": "wasalt:5866220",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/rent/apartment-100-sqm-with-1-bedroom-5866220",
+    "title": "Apartment 100 SQM with 1 Bedroom",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Murooj",
+    "propertyType": "Apartment",
+    "purpose": "rent",
+    "price": 34000,
+    "currency": "SAR",
+    "pricePeriod": "year",
+    "bedroomsMin": 1,
+    "bedroomsMax": 1,
+    "areaSqm": 100,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Rent in Al-Murooj, Riyadh\nBuilt up Area: 100 SQM\nThe property has 1 bedroom\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 34000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لايوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:32:03.729Z"
+  },
+  {
+    "id": "wasalt:5866753",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/rent/apartment-300-sqm-with-1-bedroom-5866753",
+    "title": "Apartment 300 SQM with 1 Bedroom",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Faysaleyyah",
+    "propertyType": "Apartment",
+    "purpose": "rent",
+    "price": 36000,
+    "currency": "SAR",
+    "pricePeriod": "year",
+    "bedroomsMin": 1,
+    "bedroomsMax": 1,
+    "areaSqm": 300,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Rent in Al Faysaleyyah, Jeddah\nBuilt up Area: 300 SQM\nThe property has 1 bedroom\nApartment has electricity and water Connections\nBuilding year: 2016\nPrice: 36000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: 10 years\nFacade: 3 Streets\nOther obligations on the property: لا\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:32:05.626Z"
+  },
+  {
+    "id": "wasalt:5893413",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/rent/apartment-25-sqm-with-1-bedroom-5893413",
+    "title": "Apartment 25 SQM with 1 Bedroom",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Jazeerah",
+    "propertyType": "Apartment",
+    "purpose": "rent",
+    "price": 2500,
+    "currency": "SAR",
+    "pricePeriod": "year",
+    "bedroomsMin": 1,
+    "bedroomsMax": 1,
+    "areaSqm": 25,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Rent in Al-Jazeerah, Riyadh\nBuilt up Area: 25 SQM\nThe property has 1 bedroom\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 2500 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لايوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:32:07.508Z"
+  },
+  {
+    "id": "wasalt:5888352",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/rent/apartment-100-sqm-with-1-bedroom-5888352",
+    "title": "Apartment 100 SQM with 1 Bedroom",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "An-Nafel",
+    "propertyType": "Apartment",
+    "purpose": "rent",
+    "price": 32000,
+    "currency": "SAR",
+    "pricePeriod": "year",
+    "bedroomsMin": 1,
+    "bedroomsMax": 1,
+    "areaSqm": 100,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Rent in An-Nafel, Riyadh\nBuilt up Area: 100 SQM\nThe property has 1 bedroom\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 32000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: <1 year\nFacade: 3 Streets\nOther obligations on the property: لايوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:32:09.412Z"
+  },
+  {
+    "id": "wasalt:5885068",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/rent/apartment-120-sqm-with-3-bedrooms-5885068",
+    "title": "Apartment 120 SQM with 3 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "district": "Al-Malqa",
+    "propertyType": "Apartment",
+    "purpose": "rent",
+    "price": 55000,
+    "currency": "SAR",
+    "pricePeriod": "year",
+    "bedroomsMin": 3,
+    "bedroomsMax": 3,
+    "areaSqm": 120,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Rent in Al-Malqa, Riyadh\nBuilt up Area: 120 SQM\nThe property has 3 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 55000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: New\nFacade: 3 Streets\nOther obligations on the property: لايوجد\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:32:20.023Z"
+  },
+  {
+    "id": "wasalt:5893783",
+    "source": "wasalt",
+    "kind": "listing",
+    "url": "https://wasalt.sa/en/property/rent/apartment-13698-sqm-with-4-bedrooms-5893783",
+    "title": "Apartment 136.98 SQM with 4 Bedrooms",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "district": "Al Safa",
+    "propertyType": "Apartment",
+    "purpose": "rent",
+    "price": 35000,
+    "currency": "SAR",
+    "pricePeriod": "year",
+    "bedroomsMin": 4,
+    "bedroomsMax": 4,
+    "areaSqm": 136.98,
+    "status": null,
+    "sections": [
+      {
+        "heading": "Description",
+        "text": "Apartment for Rent in Al Safa, Jeddah\nBuilt up Area: 136.98 SQM\nApartment is located on 1 street\nThe property has 4 bedrooms\nApartment has electricity and water Connections\nBuilding year: 2026\nPrice: 35000 SAR"
+      },
+      {
+        "heading": "Details",
+        "text": "Property usage: Residential\nAge: 1 year\nFacade: North\nOther obligations on the property: 0\nElectricity: Yes\nWater: Yes"
+      }
+    ],
+    "scrapedAt": "2026-11-18T08:32:24.446Z"
+  }
+]
